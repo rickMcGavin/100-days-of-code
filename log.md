@@ -2,35 +2,16 @@
 
 ### Day 1: January 3, 2016
 **Today's Progess**
+- 25 minutes on [Lynda.com](http://www.lynda.com)
+  - Finished course: Up & Running with Git and Github
+- 50 minutes coding FreeCodeCamp Advanced Algorithm Challenge: Inventory Update.
+  - Challenge solved.
+- 25 minutes reading YDKJS: this & Object Prototypes
 
 **Thoughts:**
-**Link to work:** [example](http://www.example.com)
+I work in Pomodoros, so I consider meeting my coding challenge at 50 minutes per day. I typically always try to read or watch course material as well, but not as much as time spent on code.
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+The biggest thing I learned today was that I struggled with the Inventory Update challenge largely due to a misunderstanding of how nested for loops would iterate through an array.
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link to work:** [Calculator App](http://www.example.com)
-
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
-
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link(s) to work**: [Calculator App](http://www.example.com)
-
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+I consider it a win that I was able to solve the challenge. Tomorrow I have to start figuring out the next FCC Advanced Algorithm Challenge: No Repeats Please.
+**Link to work:** [Inventory Update Solution](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/inventory_updates.js)
