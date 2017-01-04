@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 1: January 3, 2016
+**Today's Progess**
+
+**Thoughts:**
+**Link to work:** [example](http://www.example.com)
+
 ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
 
