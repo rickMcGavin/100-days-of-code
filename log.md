@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 2: January 4, 2016
+**Today's Progress**
+- 25 minutes on [Lynda.com](http://www.lynda.com)
+  - Began course CSS: Core Concepts on Front-End Developer Learning Path.
+- 85 minutes on FreeCodeCamp Advanced Algorithm Challenge: No Repeats Please
+  - Solved on 4th pomodoro and finished the remaining...
+- 15 minutes on reading YDKJS this & Object Prototypes
+
+**Thoughts**
+I spent the majority of my time coding as compared to reading or studying the Front-End Developer Learning Path on Lynda. It certainly felt like the most productive use of my time, and I have another FCC challenge solved to show for it. I just need to knock down 4 more of these algorithm challenges before I can start the projects.
+
+**Link to work: **[FreeCodeCamp: No Repeats Please Solution](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/no_repeats_please.js)
+
+
 ### Day 1: January 3, 2016
 **Today's Progess**
 - 25 minutes on [Lynda.com](http://www.lynda.com)
