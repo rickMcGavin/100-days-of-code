@@ -7,7 +7,7 @@
 **Thoughts**
 Life definitely happened today. Got a late start on coding, so I only worked on the FCC challenge instead of my usual routine. I didn't get enough sleep, and I definitely struggled with this date challenge as I barely solved any of the problems in the algorithm. Tomorrow will be better.
 
-**Link to work:** [FreeCodeCamp: Friendly Date Ranges]()
+**Link to work:** [FreeCodeCamp: Friendly Date Ranges](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js)
 
 ### Day 2: January 4, 2017
 **Today's Progress**
