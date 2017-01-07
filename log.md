@@ -1,8 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 4: January 5, 2017
+**Today's Progress**
+- 25 minutes on [Lynda.com](http://www.lynda.com)
+  - Continued CSS: Core Concepts course on Front-End Developer Learning Path.
+- 50+ minutes on FreeCodeCamp Advanced Algorithm Challenge: Friendly Date Ranges
+
+**Thoughts**
+I finally understand how this Date object works. Also, it seems that since FCC used hyphens in the date format, there is some sort of inconsistency. I thought I just didn't understand how the methods worked, but apparently if you replace the hyphens with forward slashes, the dates work right. Glad I figured that out. That little inconsistency completely hung me up on this challenge. I've been able to move forward on it now, and should be able to have it completed tomorrow.
+
+I could have most likely solved it, but in a rare change, I just really enjoyed playing around with the Date object and seeing how it works... in a productive way.
+
+**Link to work** [FreeCodeCamp: Friendly Date Ranges](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js)
+
 ### Day 3: January 4, 2017
 **Today's Progress**
-- 50 minutes on FreeCodeCamp Advanced Algorithm Challenge:
+- 50 minutes on FreeCodeCamp Advanced Algorithm Challenge: Friendly Date Ranges
 
 **Thoughts**
 Life definitely happened today. Got a late start on coding, so I only worked on the FCC challenge instead of my usual routine. I didn't get enough sleep, and I definitely struggled with this date challenge as I barely solved any of the problems in the algorithm. Tomorrow will be better.
