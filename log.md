@@ -1,6 +1,20 @@
 # 100 Days Of Code - Log
+## Day 6: January 8, 2016
+**Today's Progress**
+- 25 minutes [Lynda.com](http://www.lynda.com)
+  - Continued CSS: Core Concepts course on Front-End Developer Learning Path
+- 75 minutes on FreeCodeCamp Advanced Algorithm Challenge: Map the Debris
+  - solved
 
-## Day 5: January 6, 2016
+**Thoughts**
+Since the CSS coure is *mostly* review, I prefer to watch it at 1.75x - 2x speed. I will say that even though I've taken an absurd amount of online courses, and I've even read Jon Duckett's HTML/CSS book, I still learn a ton of things about CSS I never knew. In some cases, I was using them, but didn't understand them until this course.
+
+I loved the Map the Debris challenge. I enjoyed it. I found it sufficiently challenging without being confusing, and I learned from it.
+
+**Link to work** [FreeCodeCamp: Map the Debris](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/map_the_debris.js)
+
+
+## Day 5: January 7, 2016
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
   - Continued CSS: Core Concepts course on Front-End Developer Learning Path
@@ -11,6 +25,7 @@
   - solved
 
 **Thoughts**
+
 I like a lot of FCC, but this challenge is kind of lousy. The instructions are not clear in my opinion, especially when compared to the test cases.
 
 To make matters worse, they chose to use a date format separated by hyphens. Maybe they didn't realize this, but the hyphens are wildly inconsistent. I had to append .replace("-", "/") on to a couple lines of code to make it work. Not everyone had to do this it seems. For example, Stephen Mayeaux's code from his YouTube channel worked just fine without. Mine was consistently off unless I changed those hyphens to forward slashes.
@@ -24,27 +39,32 @@ I also solved the Make a Person challenge on FCC. Even though I'm reading the YD
 **Link to work** [FreeCodeCamp: Friendly Date Ranges](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js)
 **Link to work** [FreeCodeCamp: Make a Person](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/make_a_person.js)
 
-### Day 4: January 5, 2017
+
+### Day 4: January 6, 2017
 **Today's Progress**
 - 25 minutes on [Lynda.com](http://www.lynda.com)
   - Continued CSS: Core Concepts course on Front-End Developer Learning Path.
 - 50+ minutes on FreeCodeCamp Advanced Algorithm Challenge: Friendly Date Ranges
 
 **Thoughts**
+
 I finally understand how this Date object works. Also, it seems that since FCC used hyphens in the date format, there is some sort of inconsistency. I thought I just didn't understand how the methods worked, but apparently if you replace the hyphens with forward slashes, the dates work right. Glad I figured that out. That little inconsistency completely hung me up on this challenge. I've been able to move forward on it now, and should be able to have it completed tomorrow.
 
 I could have most likely solved it, but in a rare change, I just really enjoyed playing around with the Date object and seeing how it works... in a productive way.
 
 **Link to work** [FreeCodeCamp: Friendly Date Ranges](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js)
 
-### Day 3: January 4, 2017
+
+### Day 3: January 5, 2017
 **Today's Progress**
 - 50 minutes on FreeCodeCamp Advanced Algorithm Challenge: Friendly Date Ranges
 
 **Thoughts**
+
 Life definitely happened today. Got a late start on coding, so I only worked on the FCC challenge instead of my usual routine. I didn't get enough sleep, and I definitely struggled with this date challenge as I barely solved any of the problems in the algorithm. Tomorrow will be better.
 
 **Link to work:** [FreeCodeCamp: Friendly Date Ranges](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js)
+
 
 ### Day 2: January 4, 2017
 **Today's Progress**
@@ -55,6 +75,7 @@ Life definitely happened today. Got a late start on coding, so I only worked on 
 - 15 minutes on reading YDKJS this & Object Prototypes
 
 **Thoughts**
+
 I spent the majority of my time coding as compared to reading or studying the Front-End Developer Learning Path on Lynda. It certainly felt like the most productive use of my time, and I have another FCC challenge solved to show for it. I just need to knock down 4 more of these algorithm challenges before I can start the projects.
 
 **Link to work:**[FreeCodeCamp: No Repeats Please Solution](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/no_repeats_please.js)
@@ -69,6 +90,7 @@ I spent the majority of my time coding as compared to reading or studying the Fr
 - 25 minutes reading YDKJS: this & Object Prototypes
 
 **Thoughts:**
+
 I work in Pomodoros, so I consider meeting my coding challenge at 50 minutes per day. I typically always try to read or watch course material as well, but not as much as time spent on code.
 
 The biggest thing I learned today was that I struggled with the Inventory Update challenge largely due to a misunderstanding of how nested for loops would iterate through an array.
