@@ -1,5 +1,29 @@
 # 100 Days Of Code - Log
 
+## Day 5: January 6, 2016
+**Today's Progress**
+- 25 minutes [Lynda.com](http://www.lynda.com)
+  - Continued CSS: Core Concepts course on Front-End Developer Learning Path
+- 50+ minutes on FreeCodeCamp Advanced Algorithm Challenge: Friendly Date Ranges
+  - solved
+- 25 minutes reading YDKJS: this and Object Prototypes
+- 25 - 50 minutes on FreeCodeCamp Advanced Algorithm Challenge: Make a Person
+  - solved
+
+**Thoughts**
+I like a lot of FCC, but this challenge is kind of lousy. The instructions are not clear in my opinion, especially when compared to the test cases.
+
+To make matters worse, they chose to use a date format separated by hyphens. Maybe they didn't realize this, but the hyphens are wildly inconsistent. I had to append .replace("-", "/") on to a couple lines of code to make it work. Not everyone had to do this it seems. For example, Stephen Mayeaux's code from his YouTube channel worked just fine without. Mine was consistently off unless I changed those hyphens to forward slashes.
+
+My final little gripe about this is really only related to timing. The challenge seems to have been designed for 2016, so I had to add a little alteration to make it work as if it wasn't 2017 already. That's just a necessary update they may not have seen coming.
+
+I submitted an issue for the bug above, and found out they already had an open pull request to remove the challenge entirely as it will require an update every year. Interesting.  
+
+I also solved the Make a Person challenge on FCC. Even though I'm reading the YDKJS book on *this*, I'm still struggling with its use.
+
+**Link to work** [FreeCodeCamp: Friendly Date Ranges](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js)
+**Link to work** [FreeCodeCamp: Make a Person](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/make_a_person.js)
+
 ### Day 4: January 5, 2017
 **Today's Progress**
 - 25 minutes on [Lynda.com](http://www.lynda.com)
