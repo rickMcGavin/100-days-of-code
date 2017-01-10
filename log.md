@@ -18,6 +18,8 @@ Unfortunately, it seems tonight will be another night I don't read YDKJS. I need
 
 Looking forward to starting the calculator tomorrow.
 
+**Link to Work** [FreeCodeCamp: Pairwise](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/pairwise.js)
+
 
 ## Day 6: January 8, 2016
 **Today's Progress**
