@@ -1,4 +1,24 @@
 # 100 Days Of Code - Log
+
+
+# Day 7: January 9, 2016
+**Today's Progress**
+- 25 minutes [Lynda.com](http://www.lynda.com)
+  - Continues CSS: Core Concepts course on Front-End Developer Learning Path
+- ~50 minutes on FreeCodeCamp Advanced Algorithm Challenge: pairwise
+  - solved
+
+**Thoughts**
+
+I continue to learn more from the CSS course. I did not have a strong grasp on psuedo-element selectors and how they worked. Even though I have used them before, I certainly did not understand them how I do now.
+
+I was able to rather easily solve pairwise. I had thought about how to solve it frequently at work, and my plan worked largely. I ran in to some odd behavior that caused me to fail the challenge on the first few tries. For instance when I set the initial value of the loop inside the reducer to 1. It worked for most problems, but when I set it to the reduce function's index + 1. It worked for all of them. I'm a little unsure why this is still.
+
+Unfortunately, it seems tonight will be another night I don't read YDKJS. I need to figure out how to start earlier in the night, so I can get everything done.
+
+Looking forward to starting the calculator tomorrow.
+
+
 ## Day 6: January 8, 2016
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
@@ -7,6 +27,7 @@
   - solved
 
 **Thoughts**
+
 Since the CSS coure is *mostly* review, I prefer to watch it at 1.75x - 2x speed. I will say that even though I've taken an absurd amount of online courses, and I've even read Jon Duckett's HTML/CSS book, I still learn a ton of things about CSS I never knew. In some cases, I was using them, but didn't understand them until this course.
 
 I loved the Map the Debris challenge. I enjoyed it. I found it sufficiently challenging without being confusing, and I learned from it.
