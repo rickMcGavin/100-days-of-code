@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-## Day 8: January 10, 2016
+### Day 8: January 10, 2016
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
   - Continued CSS: Core Concepts course on Front-End Developer Learning Path
@@ -16,7 +16,7 @@ I'm having a little trouble with the buttons laying out how I want them to in th
 
 **Link to work** [FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
 
-# Day 7: January 9, 2016
+### Day 7: January 9, 2016
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
   - Continued CSS: Core Concepts course on Front-End Developer Learning Path
@@ -36,7 +36,7 @@ Looking forward to starting the calculator tomorrow.
 **Link to Work** [FreeCodeCamp: Pairwise](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/pairwise.js)
 
 
-## Day 6: January 8, 2016
+### Day 6: January 8, 2016
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
   - Continued CSS: Core Concepts course on Front-End Developer Learning Path
@@ -52,7 +52,7 @@ I loved the Map the Debris challenge. I enjoyed it. I found it sufficiently chal
 **Link to work** [FreeCodeCamp: Map the Debris](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/map_the_debris.js)
 
 
-## Day 5: January 7, 2016
+### Day 5: January 7, 2016
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
   - Continued CSS: Core Concepts course on Front-End Developer Learning Path
