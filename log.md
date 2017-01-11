@@ -1,10 +1,25 @@
 # 100 Days Of Code - Log
 
+## Day 8: January 10, 2016
+**Today's Progress**
+- 25 minutes [Lynda.com](http://www.lynda.com)
+  - Continued CSS: Core Concepts course on Front-End Developer Learning Path
+- 75 minutes FreeCodeCamp Advanced Project: JavaScript calculator
+
+**Thoughts**
+
+It's funny how I thought I knew CSS rather well, but continue to learn and understand more by the Lynda course. The most appropriate and easy to understand explanation of specificity exists in this course. I understand in general how CSS selectors could be more specific than others. I did not realize that each selector is assigned a value, and the more specific selector is basically the selector with the highest combined value.
+
+I started the JavaScript calculator project by getting a rough idea of what I wanted the project to look like in Sketch, choose a color palette and general design. This took only about 25 - 45 minutes, but it gives me a clear sense of how to approach writing the HTML & CSS. I started the HTML & CSS, using SCSS.
+
+I'm having a little trouble with the buttons laying out how I want them to in the flexbox, but I'll figure it out.   
+
+**Link to work** [FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
 
 # Day 7: January 9, 2016
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
-  - Continues CSS: Core Concepts course on Front-End Developer Learning Path
+  - Continued CSS: Core Concepts course on Front-End Developer Learning Path
 - ~50 minutes on FreeCodeCamp Advanced Algorithm Challenge: pairwise
   - solved
 
