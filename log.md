@@ -11,7 +11,7 @@ I definitely didn't learn anything new from the CSS course today. Not too surpri
 
 Finished the majority of the HTML/CSS portion. Looks better than what I sketched up. Added some basic CSS to it. I'm quite pleased with how it looks. Now that it looks like a calculator, I have to make it work like a calculator.
 
-**Link to work**[FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
+**Link to work** [FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
 
 ### Day 8: January 10, 2016
 **Today's Progress**
