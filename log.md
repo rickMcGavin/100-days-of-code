@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 9: January 11, 2016
+**Today's Progress**
+- 25 minutes [Lynda.com](http://www.lynda.com)
+  - Continued CSS: Core Concepts course on Front-End Developer Learning Path
+
+**Thoughts**
+I definitely didn't learn anything new from the CSS course today. Not too surprised. It was bound to happen eventually. Thank you for 2x speed videos. Although, I must say I wish I had 3x. This is in no way a negative criticism of the course. It's just largely review.
+
+Finished the majority of the HTML/CSS portion. Looks better than what I sketched up. Added some basic CSS to it. I'm quite pleased with how it looks. Now that it looks like a calculator, I have to make it work like a calculator.
+
+**Link to work**
+
 ### Day 8: January 10, 2016
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
