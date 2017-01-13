@@ -1,19 +1,36 @@
 # 100 Days Of Code - Log
 
-### Day 9: January 11, 2016
+### Day 10: January 12, 2017
+**Today's Progess**
+- 25 minutes [Lynda.com](http://www.lynda.com)
+  - Continued CSS: Core Concepts course on Front-End Developer Learning Path
+- 75+ minutes FreeCodeCamp Advanced Project: JavaScript Calculator
+
+**Thoughts**
+
+Much of the CSS course today was in regards to text manipulation, which is another topic I knew fairly well.
+
+The JavaScript calculator was somewhat simpler than I was expecting. It will technically pass all FCC user stories as it is, so I submitted it as complete. It still has some quirks I want to work out though. For example, you can input as many decimals in a number as you want, which will eventually break it.
+
+**Link to work on github** [FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
+**Link to work on codepen** [FreeCodeCamp: JavaScript Calculator](http://codepen.io/rickMcGavin/pen/oBLNxM)
+
+
+### Day 9: January 11, 2017
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
   - Continued CSS: Core Concepts course on Front-End Developer Learning Path
 - 50+ minutes FreeCodeCamp Advanced Project: JavaScript Calculator
 
 **Thoughts**
+
 I definitely didn't learn anything new from the CSS course today. Not too surprised. It was bound to happen eventually. Thank you for 2x speed videos. Although, I must say I wish I had 3x. This is in no way a negative criticism of the course. It's just largely review.
 
 Finished the majority of the HTML/CSS portion. Looks better than what I sketched up. Added some basic CSS to it. I'm quite pleased with how it looks. Now that it looks like a calculator, I have to make it work like a calculator.
 
 **Link to work** [FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
 
-### Day 8: January 10, 2016
+### Day 8: January 10, 2017
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
   - Continued CSS: Core Concepts course on Front-End Developer Learning Path
@@ -29,7 +46,7 @@ I'm having a little trouble with the buttons laying out how I want them to in th
 
 **Link to work** [FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
 
-### Day 7: January 9, 2016
+### Day 7: January 9, 2017
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
   - Continued CSS: Core Concepts course on Front-End Developer Learning Path
@@ -49,7 +66,7 @@ Looking forward to starting the calculator tomorrow.
 **Link to Work** [FreeCodeCamp: Pairwise](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/pairwise.js)
 
 
-### Day 6: January 8, 2016
+### Day 6: January 8, 2017
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
   - Continued CSS: Core Concepts course on Front-End Developer Learning Path
@@ -65,7 +82,7 @@ I loved the Map the Debris challenge. I enjoyed it. I found it sufficiently chal
 **Link to work** [FreeCodeCamp: Map the Debris](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/map_the_debris.js)
 
 
-### Day 5: January 7, 2016
+### Day 5: January 7, 2017
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
   - Continued CSS: Core Concepts course on Front-End Developer Learning Path
@@ -81,7 +98,7 @@ I like a lot of FCC, but this challenge is kind of lousy. The instructions are n
 
 To make matters worse, they chose to use a date format separated by hyphens. Maybe they didn't realize this, but the hyphens are wildly inconsistent. I had to append .replace("-", "/") on to a couple lines of code to make it work. Not everyone had to do this it seems. For example, Stephen Mayeaux's code from his YouTube channel worked just fine without. Mine was consistently off unless I changed those hyphens to forward slashes.
 
-My final little gripe about this is really only related to timing. The challenge seems to have been designed for 2016, so I had to add a little alteration to make it work as if it wasn't 2017 already. That's just a necessary update they may not have seen coming.
+My final little gripe about this is really only related to timing. The challenge seems to have been designed for 2017, so I had to add a little alteration to make it work as if it wasn't 2017 already. That's just a necessary update they may not have seen coming.
 
 I submitted an issue for the bug above, and found out they already had an open pull request to remove the challenge entirely as it will require an update every year. Interesting.  
 
