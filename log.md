@@ -13,6 +13,7 @@ Much of the CSS course today was in regards to text manipulation, which is anoth
 The JavaScript calculator was somewhat simpler than I was expecting. It will technically pass all FCC user stories as it is, so I submitted it as complete. It still has some quirks I want to work out though. For example, you can input as many decimals in a number as you want, which will eventually break it.
 
 **Link to work on github** [FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
+
 **Link to work on codepen** [FreeCodeCamp: JavaScript Calculator](http://codepen.io/rickMcGavin/pen/oBLNxM)
 
 
