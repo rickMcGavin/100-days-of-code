@@ -1,5 +1,31 @@
 # 100 Days Of Code - Log
 
+### Day 11: January 13, 2017
+**Today's Prgoress**
+- 25 minutes [Lynda.com](http://www.lynda.com)
+  - Continued CSS: Core Concepts course on Front-End Developer Learning Path
+- 75+ minutes FreeCodeCamp Advanced Project: JavaScript Calculator
+- 25 minutes YDKJS: *this* & Object Prototypes
+
+**Thoughts**
+
+The CSS course today largely covered how to understand the basics of the box model, controlling element spacing, and controlling interior spacing. Many things I knew, but there were some quirks in regards to the way margin is calculated vertically on elements.
+
+I made the calculator a little wider and increased the height some, so as to make it most appealing on mobile devices. I felt it was a little too small when I used it on my iPhone. I like how it works now, but am not sure why I can't make it reach the entire width of the screen.
+
+I added some more border to the top, left, and right of the display to make it look more uniform with the rest of the calculator's styling.
+
+I did not like the way the JavaScript was written in my version. It was mostly one big function. I wanted to be able to make it more functional by using many smaller functions. Since my version is already complete and working, I figured there is no harm in going and finding a better way to write it and possibly learn something while I am at it. I am trying to adapt [JavaScript Calculator Guide](https://www.gorkahernandez.com/blog/fcc-zipline-series-build-javascript-calculator-vanilla/) by [Gorka Hernandez](http://www.gorkahernandez.com/). I am still trying to get this to work without much success, and am not sure what it is I'm missing at this point.
+
+I made a point to read YDKJS today due to my struggles with *this*, objects, constructors. I hear people rave about YDKJS, and it is good. I don't find it that accessible though. I don't care for the examples either. They don't seem to have any practical application. Every example is written to demonstrate only what the author is trying to demonstrate. They are all foo() bar() style. I'm definitely struggling with this.
+
+
+**Link to work on github**
+[FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
+
+**Link to work on codepen**
+[FreeCodeCamp: JavaScript Calculator](http://codepen.io/rickMcGavin/pen/oBLNxM)
+
 ### Day 10: January 12, 2017
 **Today's Progess**
 - 25 minutes [Lynda.com](http://www.lynda.com)
@@ -12,9 +38,11 @@ Much of the CSS course today was in regards to text manipulation, which is anoth
 
 The JavaScript calculator was somewhat simpler than I was expecting. It will technically pass all FCC user stories as it is, so I submitted it as complete. It still has some quirks I want to work out though. For example, you can input as many decimals in a number as you want, which will eventually break it.
 
-**Link to work on github** [FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
+**Link to work on github**
+[FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
 
-**Link to work on codepen** [FreeCodeCamp: JavaScript Calculator](http://codepen.io/rickMcGavin/pen/oBLNxM)
+**Link to work on codepen**
+[FreeCodeCamp: JavaScript Calculator](http://codepen.io/rickMcGavin/pen/oBLNxM)
 
 
 ### Day 9: January 11, 2017
@@ -29,7 +57,8 @@ I definitely didn't learn anything new from the CSS course today. Not too surpri
 
 Finished the majority of the HTML/CSS portion. Looks better than what I sketched up. Added some basic CSS to it. I'm quite pleased with how it looks. Now that it looks like a calculator, I have to make it work like a calculator.
 
-**Link to work** [FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
+**Link to work**
+[FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
 
 ### Day 8: January 10, 2017
 **Today's Progress**
@@ -45,7 +74,8 @@ I started the JavaScript calculator project by getting a rough idea of what I wa
 
 I'm having a little trouble with the buttons laying out how I want them to in the flexbox, but I'll figure it out.   
 
-**Link to work** [FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
+**Link to work**
+[FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
 
 ### Day 7: January 9, 2017
 **Today's Progress**
@@ -64,7 +94,8 @@ Unfortunately, it seems tonight will be another night I don't read YDKJS. I need
 
 Looking forward to starting the calculator tomorrow.
 
-**Link to Work** [FreeCodeCamp: Pairwise](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/pairwise.js)
+**Link to Work**
+[FreeCodeCamp: Pairwise](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/pairwise.js)
 
 
 ### Day 6: January 8, 2017
@@ -80,7 +111,8 @@ Since the CSS coure is *mostly* review, I prefer to watch it at 1.75x - 2x speed
 
 I loved the Map the Debris challenge. I enjoyed it. I found it sufficiently challenging without being confusing, and I learned from it.
 
-**Link to work** [FreeCodeCamp: Map the Debris](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/map_the_debris.js)
+**Link to work**
+[FreeCodeCamp: Map the Debris](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/map_the_debris.js)
 
 
 ### Day 5: January 7, 2017
@@ -105,8 +137,10 @@ I submitted an issue for the bug above, and found out they already had an open p
 
 I also solved the Make a Person challenge on FCC. Even though I'm reading the YDKJS book on *this*, I'm still struggling with its use.
 
-**Link to work** [FreeCodeCamp: Friendly Date Ranges](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js)
-**Link to work** [FreeCodeCamp: Make a Person](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/make_a_person.js)
+**Link to work**
+FreeCodeCamp: Friendly Date Ranges](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js)
+**Link to work**
+[FreeCodeCamp: Make a Person](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/make_a_person.js)
 
 
 ### Day 4: January 6, 2017
@@ -121,7 +155,8 @@ I finally understand how this Date object works. Also, it seems that since FCC u
 
 I could have most likely solved it, but in a rare change, I just really enjoyed playing around with the Date object and seeing how it works... in a productive way.
 
-**Link to work** [FreeCodeCamp: Friendly Date Ranges](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js)
+**Link to work**
+[FreeCodeCamp: Friendly Date Ranges](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js)
 
 
 ### Day 3: January 5, 2017
@@ -132,7 +167,8 @@ I could have most likely solved it, but in a rare change, I just really enjoyed 
 
 Life definitely happened today. Got a late start on coding, so I only worked on the FCC challenge instead of my usual routine. I didn't get enough sleep, and I definitely struggled with this date challenge as I barely solved any of the problems in the algorithm. Tomorrow will be better.
 
-**Link to work:** [FreeCodeCamp: Friendly Date Ranges](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js)
+**Link to work:**
+[FreeCodeCamp: Friendly Date Ranges](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js)
 
 
 ### Day 2: January 4, 2017
@@ -147,7 +183,8 @@ Life definitely happened today. Got a late start on coding, so I only worked on 
 
 I spent the majority of my time coding as compared to reading or studying the Front-End Developer Learning Path on Lynda. It certainly felt like the most productive use of my time, and I have another FCC challenge solved to show for it. I just need to knock down 4 more of these algorithm challenges before I can start the projects.
 
-**Link to work:**[FreeCodeCamp: No Repeats Please Solution](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/no_repeats_please.js)
+**Link to work:**
+[FreeCodeCamp: No Repeats Please Solution](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/no_repeats_please.js)
 
 
 ### Day 1: January 3, 2017
@@ -165,4 +202,5 @@ I work in Pomodoros, so I consider meeting my coding challenge at 50 minutes per
 The biggest thing I learned today was that I struggled with the Inventory Update challenge largely due to a misunderstanding of how nested for loops would iterate through an array.
 
 I consider it a win that I was able to solve the challenge. Tomorrow I have to start figuring out the next FCC Advanced Algorithm Challenge: No Repeats Please.
-**Link to work:** [Inventory Update Solution](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/inventory_updates.js)
+**Link to work:**
+[Inventory Update Solution](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/inventory_updates.js)
