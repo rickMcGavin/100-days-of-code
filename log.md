@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 13: January 15, 2017
+**Today's Progress**
+- 50 minutes [Lynda.com](http://www.lynda.com)
+  - Finished CSS: Core Concepts course on Front-End Developer Learning Path
+- 50 minutes FreeCodeCamp Advanced Project: Pomodoro Timer
+
+**Thoughts**
+Again I'm learning some interesting things about CSS in regards to styling container elements. This course is far more detailed in regards to teaching how to round corners, handling background image properties, and the various ways you can write border properties. I wish I came across this course initially as it is easily the most comprehensive I've come across. It's helping me fill gaps in my learning. Some of the gaps I knew existed. Some I didn't, and those are the worst after all. Not knowing what you don't know can really leave you in the dark.
+
+Put together a design in Sketch App of how I'd like the Pomodoro Clock to look. Calling it an easy day and stopping after 2 hours. It is Sunday after all.
+
+**Link to work** [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+
 ### Day 12: January 14,2017
 **Today's Progress**
 - Read 25 minutes Eloquent JavaScript
@@ -19,7 +32,7 @@ Lessons learned:
 
 Mission accomplished on breaking the code in to smaller functions. I still have some issue where the user can enter multiple decimals though.
 Added the ability to operate the calculator with the use of key presses.
-The user also cannot enter multiple decimals per number now. 
+The user also cannot enter multiple decimals per number now.
 
 **Link to work on github**
 [FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
@@ -28,7 +41,7 @@ The user also cannot enter multiple decimals per number now.
 [FreeCodeCamp: JavaScript Calculator](http://codepen.io/rickMcGavin/pen/oBLNxM)
 
 ### Day 11: January 13, 2017
-**Today's Prgoress**
+**Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
   - Continued CSS: Core Concepts course on Front-End Developer Learning Path
 - 75+ minutes FreeCodeCamp Advanced Project: JavaScript Calculator
@@ -134,7 +147,7 @@ Looking forward to starting the calculator tomorrow.
 
 **Thoughts**
 
-Since the CSS coure is *mostly* review, I prefer to watch it at 1.75x - 2x speed. I will say that even though I've taken an absurd amount of online courses, and I've even read Jon Duckett's HTML/CSS book, I still learn a ton of things about CSS I never knew. In some cases, I was using them, but didn't understand them until this course.
+Since the CSS course is *mostly* review, I prefer to watch it at 1.75x - 2x speed. I will say that even though I've taken an absurd amount of online courses, and I've even read Jon Duckett's HTML/CSS book, I still learn a ton of things about CSS I never knew. In some cases, I was using them, but didn't understand them until this course.
 
 I loved the Map the Debris challenge. I enjoyed it. I found it sufficiently challenging without being confusing, and I learned from it.
 
@@ -203,7 +216,7 @@ Life definitely happened today. Got a late start on coding, so I only worked on 
 - 25 minutes on [Lynda.com](http://www.lynda.com)
   - Began course CSS: Core Concepts on Front-End Developer Learning Path.
 - 85 minutes on FreeCodeCamp Advanced Algorithm Challenge: No Repeats Please
-  - Solved on 4th pomodoro and finished the remaining...
+  - Solved on 4th Pomodoro and finished the remaining...
 - 15 minutes on reading YDKJS this & Object Prototypes
 
 **Thoughts**
@@ -215,7 +228,7 @@ I spent the majority of my time coding as compared to reading or studying the Fr
 
 
 ### Day 1: January 3, 2017
-**Today's Progess**
+**Today's Progress**
 - 25 minutes on [Lynda.com](http://www.lynda.com)
   - Finished course: Up & Running with Git and Github
 - 50 minutes coding FreeCodeCamp Advanced Algorithm Challenge: Inventory Update.
