@@ -1,5 +1,31 @@
 # 100 Days Of Code - Log
 
+### Day 12: January 14,2017
+**Today's Progress**
+- Read 25 minutes Eloquent JavaScript
+  - Tried reading up on objects from another book for more insight in to my struggles with objects and *this*.
+- 75+ minutes FreeCodeCamp Advanced Project: JavaScript Calculator
+  - Finished... for now.
+
+**Thoughts**
+
+After reading more and varying sources on *this* and objects and object prototypes. I don't think I have a huge misunderstanding of them. I think I just managed to break my calculator code in a confusing enough way to make me doubt myself more than I should. That said, I still don't have my code working the way I want for the JavaScript calculator.
+
+After taking about 10 minutes to learn how the debugger in Chrome works courtesy of [Ghordon Zhu's YouTube Channel](https://www.youtube.com/user/gordonmzhu/feed), I was able to narrow down where the issue was. It turns out that I am not a total moron who has no concept of how objects work & how *this* works. Instead, I named two classes in my html "number-button" and "operator-button", and then I tried calling them as "number-buttons" and "operator-buttons" in my JavaScript file.
+
+Lessons learned:
+- Use debugger often and early.   
+- Check those damn variables for pluralization!
+
+Mission accomplished on breaking the code in to smaller functions. I still have some issue where the user can enter multiple decimals though.
+Added the ability to operate the calculator with the use of key presses.
+
+**Link to work on github**
+[FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
+
+**Link to work on codepen**
+[FreeCodeCamp: JavaScript Calculator](http://codepen.io/rickMcGavin/pen/oBLNxM)
+
 ### Day 11: January 13, 2017
 **Today's Prgoress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
