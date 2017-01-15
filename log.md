@@ -19,6 +19,7 @@ Lessons learned:
 
 Mission accomplished on breaking the code in to smaller functions. I still have some issue where the user can enter multiple decimals though.
 Added the ability to operate the calculator with the use of key presses.
+The user also cannot enter multiple decimals per number now. 
 
 **Link to work on github**
 [FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
