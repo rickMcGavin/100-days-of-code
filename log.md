@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 14: January 16, 2017
+**Today's Progress**
+- 25 minutes [Lynda.com](http://www.lynda.com)
+  - Started HTML Essential Training on Front-End Developer Learning Path
+- 125 minutes FreeCodeCamp Advanced Project: Pomodoro Timer
+
+**Thoughts**
+The first 25 minutes of the Lynda course were obviously a little boring as I feel I know HTML rather well at this point. However, I definitely want that Front-End Certification from Lynda, so I'll bear with it. I'll be getting in to new territory shortly.
+
+I coded the HTML & SCSS for the Pomodoro Clock. That is complete except for the animations. I started the JavaScript functionality. I figured out how to count from 60 to 0 in 1 second intervals so far. I feel like I am at least on the right path.
+
+**Link to work** [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+
 ### Day 13: January 15, 2017
 **Today's Progress**
 - 50 minutes [Lynda.com](http://www.lynda.com)
