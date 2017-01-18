@@ -1,5 +1,20 @@
 # 100 Days Of Code - Log
 
+### Day 15: January 17, 2017
+**Today's Progress**
+- 25 minutes [Lynda.com](http://www.lynda.com)
+  - Continued HTML Essential Training on Front-End Developer Learning Path
+- 75 minutes FreeCodeCamp Advanced Project: Pomodoro Timer
+
+**Thoughts**
+Still nothing major learned from the HTML course. Although, I will say it's interesting to learn the difference between when to use the tags <em>, <i>, <strong>, and <b>. I didn't realize they all serve their own purpose. <em> and <strong> are geared more towards a conversational emphasis, and screen readers with inflection capabilities will change the inflection. <i> and <b> are for presentational use of italic and bold.
+
+Now that I have my setup complete with the HTML/SCSS, I am working with the JS. I'm trying to push myself more to use object constructors, and as much Vanilla JS as possible. That said, I'm definitely struggling with this timer. I have no issue, getting that clock to count down from 60 - 0. After that though, I am definitely struggling. It may be possible because of the way I am handling minutes and seconds separately. It likely would be significantly easier to convert the input to all seconds, and then convert it back to minutes and seconds upon updating to the display.
+
+Either way, I didn't get quite enough sleep, and since I'm 2 hours in. I'll call it a night. 
+
+**Link to work**[FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+
 ### Day 14: January 16, 2017
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
