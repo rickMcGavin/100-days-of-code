@@ -13,7 +13,7 @@ Now that I have my setup complete with the HTML/SCSS, I am working with the JS. 
 
 Either way, I didn't get quite enough sleep, and since I'm 2 hours in. I'll call it a night.
 
-**Link to work**[FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+**Link to work** [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
 
 ### Day 14: January 16, 2017
 **Today's Progress**
