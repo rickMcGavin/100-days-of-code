@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 16: January 18, 2017
+**Today's Progress**
+- 25 minutes [Lynda.com](http://www.lynda.com)
+  - Started React.js: The Basics
+- ~50 minutes FreeCodeCamp Advanced Project: Pomodoro Timer
+
+**Thoughts**
+
+Due to some potentially pressing desire to find employment. I have decided to skip some courses that would mostly be considered review, and I've started React.js.
+
+I made some actual progress on this timer. I was definitely approaching it the wrong way. I was trying to manipulate the seconds and minutes separately. Instead, it was much easier to just run the timer based on the total seconds, and convert the display.
+
+**Link to work**  [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+
 ### Day 15: January 17, 2017
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
@@ -7,13 +21,14 @@
 - 75 minutes FreeCodeCamp Advanced Project: Pomodoro Timer
 
 **Thoughts**
+
 Still nothing major learned from the HTML course. Although, I will say it's interesting to learn the difference between when to use the tags &lt;em&gt;, &lt;i&gt;, &lt;strong&gt;, and &lt;b&gt;. I didn't realize they all serve their own purpose. &lt;em&gt; and &lt;strong&gt; are geared more towards a conversational emphasis, and screen readers with inflection capabilities will change the inflection. &lt;i&gt; and &lt;b&gt; are for presentational use of italic and bold.
 
 Now that I have my setup complete with the HTML/SCSS, I am working with the JS. I'm trying to push myself more to use object constructors, and as much Vanilla JS as possible. That said, I'm definitely struggling with this timer. I have no issue, getting that clock to count down from 60 - 0. After that though, I am definitely struggling. It may be possible because of the way I am handling minutes and seconds separately. It likely would be significantly easier to convert the input to all seconds, and then convert it back to minutes and seconds upon updating to the display.
 
 Either way, I didn't get quite enough sleep, and since I'm 2 hours in. I'll call it a night.
 
-**Link to work** [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+**Link to work**  [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
 
 ### Day 14: January 16, 2017
 **Today's Progress**
@@ -22,6 +37,7 @@ Either way, I didn't get quite enough sleep, and since I'm 2 hours in. I'll call
 - 125 minutes FreeCodeCamp Advanced Project: Pomodoro Timer
 
 **Thoughts**
+
 The first 25 minutes of the Lynda course were obviously a little boring as I feel I know HTML rather well at this point. However, I definitely want that Front-End Certification from Lynda, so I'll bear with it. I'll be getting in to new territory shortly.
 
 I coded the HTML & SCSS for the Pomodoro Clock. That is complete except for the animations. I started the JavaScript functionality. I figured out how to count from 60 to 0 in 1 second intervals so far. I feel like I am at least on the right path.
@@ -35,6 +51,7 @@ I coded the HTML & SCSS for the Pomodoro Clock. That is complete except for the 
 - 50 minutes FreeCodeCamp Advanced Project: Pomodoro Timer
 
 **Thoughts**
+
 Again I'm learning some interesting things about CSS in regards to styling container elements. This course is far more detailed in regards to teaching how to round corners, handling background image properties, and the various ways you can write border properties. I wish I came across this course initially as it is easily the most comprehensive I've come across. It's helping me fill gaps in my learning. Some of the gaps I knew existed. Some I didn't, and those are the worst after all. Not knowing what you don't know can really leave you in the dark.
 
 Put together a design in Sketch App of how I'd like the Pomodoro Clock to look. Calling it an easy day and stopping after 2 hours. It is Sunday after all.
