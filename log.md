@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 17: January 19, 2017
+**Today's Progress**
+- 25 minutes [Lynda.com](http://www.lynda.com)
+- 50+ minutes FreeCodeCamp Advanced Project: Pomodoro Timer
+
+**Thoughts**
+
+My 25 minutes on Lynda basically doesn't count. I ended up falling asleep during it. I am extremely tired. I'll have to watch it again tomorrow.
+
+I worked for well over 50 minutes on the Pomodoro code. I am trying to make it more object oriented by using a constructor, and well, the struggle is back. When I wasn't writing the code that way, I definitely was able to accomplish a lot, but I don't think it was working out in my favor. I'm definitely missing something. I started to write it differently because I couldn't figure out how to use clearTimeout in my original code that was actually working more. Now, that I'm writing it in a more object-oriented way though, it's like I turned the struggle back up. One thing I know for sure is that I'm too tired and frustrated to figure *this* out tonight.
+
+**Link to work**  [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+
 ### Day 16: January 18, 2017
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
