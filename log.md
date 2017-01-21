@@ -1,5 +1,20 @@
 # 100 Days Of Code - Log
 
+### Day 18: January 20, 2017
+**Today's Progress**
+- ~100 minutes FreeCodeCamp Advanced Project: Pomodoro Timer
+
+**Thoughts**
+I skipped Lynda entirely today. I did watch some youtube videos on Object Creation in Javascript on the [funfunfunction](https://www.youtube.com/playlist?list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub) channel. His channel really helped me understand higher-order functions better. Although today, I just watched his first video on Object Creation in JavaScript. What I like about his explanation is that he gives you some of those ideal examples, or what you might see in YDKJS, but he also provided a practical example. Like something you'd come across in a fairly normal project.
+
+My focus has not been as precise. I have not been starting every session with clear goals and the laser focus I usually have. Part of this I believe is a result of the unusually large struggles I've had with this Project Challenge. I was able to code a good portion of the functionality with basically no assistance. I very easily coded the timer to count down from whatever the user desired to 0.
+
+I had written my code without really being object oriented. When it came time to add the pause timer functionality, I simply could not figure out how to call it with the way I had written the code. Again I turned to the blog of [Gorka Hernandez](https://www.gorkahernandez.com/blog/). While I was able to move forward, I'm not fully satisfied, and I still insist that I want to write it my own way. Writing his code out, and playing around with it though was a big help in gaining a deeper understanding.
+
+
+**Link to work**  [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+
+
 ### Day 17: January 19, 2017
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
