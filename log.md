@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 19: January 21, 2017
+- 25 minutes [funfunfunction](https://www.youtube.com/watch?v=PIkA60I0dKU&list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub&index=2) YouTube video showing examples of *this* and bind in his object creation series.
+- 150 minutes FreeCodeCamp Advanced Project: Pomodoro Timer
+
+**Thoughts**
+I've always found the funfunfunction YouTube channel helpful at explaining some of the more advanced concepts in JavaScript, so I am going to plug away at his series on object creation.
+
+I don't think I did a good job keeping track of the time I spent working on this timer. It certainly feels like more than 150 minutes. It's fully functional now. It could pass the freecodecamp test as it is, but I fully intend to add just a few animations.
+
+**Links to work:** [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+
+
 ### Day 18: January 20, 2017
 **Today's Progress**
 - ~100 minutes FreeCodeCamp Advanced Project: Pomodoro Timer
