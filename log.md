@@ -1,15 +1,31 @@
 # 100 Days Of Code - Log
 
+### Day 20: January 22, 2017
+**Today's Progress**
+- 50 minutes FreeCodeCamp Advanced Project: Pomodoro Timer
+
+**Thoughts**
+
+I was able to add the underline animation like I desired to the Pomodoro timer. It's not exactly how I wanted it, but ultimately it's a nice touch, and something I wanted to include. I really should write a JS function to handle the repeated use of the same code. I can do that later.
+
+I fixed allowing the user to enter numbers less than one in to the timer.
+
+I did not figure out how to animate the border to fill with the timer, but maybe another day.
+
+**Link to work:** [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+
 ### Day 19: January 21, 2017
+**Today's Progress**
 - 25 minutes [funfunfunction](https://www.youtube.com/watch?v=PIkA60I0dKU&list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub&index=2) YouTube video showing examples of *this* and bind in his object creation series.
 - 150 minutes FreeCodeCamp Advanced Project: Pomodoro Timer
 
 **Thoughts**
+
 I've always found the funfunfunction YouTube channel helpful at explaining some of the more advanced concepts in JavaScript, so I am going to plug away at his series on object creation.
 
 I don't think I did a good job keeping track of the time I spent working on this timer. It certainly feels like more than 150 minutes. It's fully functional now. It could pass the freecodecamp test as it is, but I fully intend to add just a few animations.
 
-**Links to work:** [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+**Link to work:** [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
 
 
 ### Day 18: January 20, 2017
@@ -17,6 +33,7 @@ I don't think I did a good job keeping track of the time I spent working on this
 - ~100 minutes FreeCodeCamp Advanced Project: Pomodoro Timer
 
 **Thoughts**
+
 I skipped Lynda entirely today. I did watch some youtube videos on Object Creation in Javascript on the [funfunfunction](https://www.youtube.com/playlist?list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub) channel. His channel really helped me understand higher-order functions better. Although today, I just watched his first video on Object Creation in JavaScript. What I like about his explanation is that he gives you some of those ideal examples, or what you might see in YDKJS, but he also provided a practical example. Like something you'd come across in a fairly normal project.
 
 My focus has not been as precise. I have not been starting every session with clear goals and the laser focus I usually have. Part of this I believe is a result of the unusually large struggles I've had with this Project Challenge. I was able to code a good portion of the functionality with basically no assistance. I very easily coded the timer to count down from whatever the user desired to 0.
@@ -24,7 +41,7 @@ My focus has not been as precise. I have not been starting every session with cl
 I had written my code without really being object oriented. When it came time to add the pause timer functionality, I simply could not figure out how to call it with the way I had written the code. Again I turned to the blog of [Gorka Hernandez](https://www.gorkahernandez.com/blog/). While I was able to move forward, I'm not fully satisfied, and I still insist that I want to write it my own way. Writing his code out, and playing around with it though was a big help in gaining a deeper understanding.
 
 
-**Link to work**  [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+**Link to work:**  [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
 
 
 ### Day 17: January 19, 2017
@@ -38,7 +55,7 @@ My 25 minutes on Lynda basically doesn't count. I ended up falling asleep during
 
 I worked for well over 50 minutes on the Pomodoro code. I am trying to make it more object oriented by using a constructor, and well, the struggle is back. When I wasn't writing the code that way, I definitely was able to accomplish a lot, but I don't think it was working out in my favor. I'm definitely missing something. I started to write it differently because I couldn't figure out how to use clearTimeout in my original code that was actually working more. Now, that I'm writing it in a more object-oriented way though, it's like I turned the struggle back up. One thing I know for sure is that I'm too tired and frustrated to figure *this* out tonight.
 
-**Link to work**  [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+**Link to work:**  [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
 
 ### Day 16: January 18, 2017
 **Today's Progress**
@@ -52,7 +69,7 @@ Due to some potentially pressing desire to find employment. I have decided to sk
 
 I made some actual progress on this timer. I was definitely approaching it the wrong way. I was trying to manipulate the seconds and minutes separately. Instead, it was much easier to just run the timer based on the total seconds, and convert the display.
 
-**Link to work**  [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+**Link to work:**  [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
 
 ### Day 15: January 17, 2017
 **Today's Progress**
@@ -68,7 +85,7 @@ Now that I have my setup complete with the HTML/SCSS, I am working with the JS. 
 
 Either way, I didn't get quite enough sleep, and since I'm 2 hours in. I'll call it a night.
 
-**Link to work**  [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+**Link to work:**  [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
 
 ### Day 14: January 16, 2017
 **Today's Progress**
@@ -82,7 +99,7 @@ The first 25 minutes of the Lynda course were obviously a little boring as I fee
 
 I coded the HTML & SCSS for the Pomodoro Clock. That is complete except for the animations. I started the JavaScript functionality. I figured out how to count from 60 to 0 in 1 second intervals so far. I feel like I am at least on the right path.
 
-**Link to work** [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+**Link to work:** [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
 
 ### Day 13: January 15, 2017
 **Today's Progress**
@@ -96,7 +113,7 @@ Again I'm learning some interesting things about CSS in regards to styling conta
 
 Put together a design in Sketch App of how I'd like the Pomodoro Clock to look. Calling it an easy day and stopping after 2 hours. It is Sunday after all.
 
-**Link to work** [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
+**Link to work:** [FreeCodeCamp: Pomodoro Clock](https://github.com/rickMcGavin/Pomodoro-Clock)
 
 ### Day 12: January 14,2017
 **Today's Progress**
@@ -182,7 +199,7 @@ I definitely didn't learn anything new from the CSS course today. Not too surpri
 
 Finished the majority of the HTML/CSS portion. Looks better than what I sketched up. Added some basic CSS to it. I'm quite pleased with how it looks. Now that it looks like a calculator, I have to make it work like a calculator.
 
-**Link to work**
+**Link to work:**
 [FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
 
 ### Day 8: January 10, 2017
@@ -199,7 +216,7 @@ I started the JavaScript calculator project by getting a rough idea of what I wa
 
 I'm having a little trouble with the buttons laying out how I want them to in the flexbox, but I'll figure it out.   
 
-**Link to work**
+**Link to work:**
 [FreeCodeCamp: JavaScript Calculator](https://github.com/rickMcGavin/JavaScript-Calculator)
 
 ### Day 7: January 9, 2017
@@ -219,7 +236,7 @@ Unfortunately, it seems tonight will be another night I don't read YDKJS. I need
 
 Looking forward to starting the calculator tomorrow.
 
-**Link to Work**
+**Link to work:**
 [FreeCodeCamp: Pairwise](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/pairwise.js)
 
 
@@ -236,7 +253,7 @@ Since the CSS course is *mostly* review, I prefer to watch it at 1.75x - 2x spee
 
 I loved the Map the Debris challenge. I enjoyed it. I found it sufficiently challenging without being confusing, and I learned from it.
 
-**Link to work**
+**Link to work:**
 [FreeCodeCamp: Map the Debris](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/map_the_debris.js)
 
 
@@ -262,9 +279,9 @@ I submitted an issue for the bug above, and found out they already had an open p
 
 I also solved the Make a Person challenge on FCC. Even though I'm reading the YDKJS book on *this*, I'm still struggling with its use.
 
-**Link to work**
+**Link to work:**
 FreeCodeCamp: Friendly Date Ranges](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js)
-**Link to work**
+**Link to work:**
 [FreeCodeCamp: Make a Person](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/make_a_person.js)
 
 
@@ -280,7 +297,7 @@ I finally understand how this Date object works. Also, it seems that since FCC u
 
 I could have most likely solved it, but in a rare change, I just really enjoyed playing around with the Date object and seeing how it works... in a productive way.
 
-**Link to work**
+**Link to work:**
 [FreeCodeCamp: Friendly Date Ranges](https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js)
 
 
