@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 21: January 23, 2017
+**Today's Progress**
+- 25 minutes [Lynda.com](http://www.lynda.com)
+- 50 minutes FCC Tic-Tac-Toe Project
+
+**Thoughts**
+I am picking back up where I left off with the reactjs series. It's definitely just the essentials. React makes some sense to me just to look at it. Although, I honestly don't care for the way it looks as code. It don't find it as aesthetically pleasing, but that's ok.
+
+I started the HTML & CSS portion of the tic-tac-toe challenge. Nothing major so far. It should get significantly harder later.
+
+**Link to work:** [FreeCodeCamp Tic-Tac-Toe Challenge](https://github.com/rickMcGavin/tic-tac-toe)
+
 ### Day 20: January 22, 2017
 **Today's Progress**
 - 50 minutes FreeCodeCamp Advanced Project: Pomodoro Timer
