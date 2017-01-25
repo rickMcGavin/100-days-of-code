@@ -1,11 +1,24 @@
 # 100 Days Of Code - Log
 
+### Day 22: January, 24 2017
+**Today's Progress**
+- 100 minutes FCC Tic-Tac-Toe Project
+
+**Thoughts**
+
+I learned how to make modal pop ups in JavaScript. Thankfully it was fairly straight forward. I am struggling to center the content properly though.
+
+Right, now I'm working on basically making it work as a two player game. I have it alternating between X's and O's, but when I make one click, it fires the X and the O back to back, and I'm not quite sure why.
+
+**Link to work:** [FreeCodeCamp Tic-Tac-Toe Challenge](https://github.com/rickMcGavin/tic-tac-toe)
+
 ### Day 21: January 23, 2017
 **Today's Progress**
 - 25 minutes [Lynda.com](http://www.lynda.com)
 - 50 minutes FCC Tic-Tac-Toe Project
 
 **Thoughts**
+
 I am picking back up where I left off with the reactjs series. It's definitely just the essentials. React makes some sense to me just to look at it. Although, I honestly don't care for the way it looks as code. It don't find it as aesthetically pleasing, but that's ok.
 
 I started the HTML & CSS portion of the tic-tac-toe challenge. Nothing major so far. It should get significantly harder later.
