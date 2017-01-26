@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 23: January 25, 2017
+**Today's Progress**
+- 75 minutes FCC Tic-Tac-Toe Project
+
+**Thoughts**
+I am moving along nicely with this project now. I'm almost done making this a functional 2-player game. After that, I'll have to make it 1-player, which should be interesting. It shouldn't be too hard if it just chooses randomly, but I'm not sure how to approach coding it in a way that will make it choose the best choices.
+
+**Link to work** [FreeCodeCamp Tic-Tac-Toe](https://github.com/rickMcGavin/tic-tac-toe)
+
+
 ### Day 22: January, 24 2017
 **Today's Progress**
 - 100 minutes FCC Tic-Tac-Toe Project
