@@ -1,5 +1,28 @@
 # 100 Days Of Code - Log
 
+### Day 25: January 28, 2017
+**Today's Progress**
+- 100 minutes FCC Tic-Tac-Toe Project
+
+**Thoughts**
+
+I've completed the functionality to run a successful two-player game of tic-tac-toe. At this point in time, I just want to figure out how to code the game to choose random open squares to play against. No fancy unbeatable AI for the time being.
+
+I've managed to make single-player as X work completely. That said, it broke the two-player version. And single-player as O only runs through once. I can't lie here. I was not even remotely interested in this project, and it's been so frustrating that I hate it even more. I'll get through it, but that's a tough combination: disinterest and difficult.
+
+**Link to work:** [FreeCodeCamp Tic-Tac-Toe](https://github.com/rickMcGavin/tic-tac-toe)
+
+### Day 24: January 27, 2017
+**Today's Progress**
+- 25 minutes React Docs Quick Start
+- 25 minutes FCC Tic-Tac-Toe Project
+
+I've been going through the [React Docs](https://facebook.github.io). The documentation here is solid. Might be better than the Lynda video I was taking to learn React.  
+
+I made a little bit of progress with the tic-tac-toe app. Added a modal for the winner, which I should ultimately just turn in to a message modal/overlay of sorts and feed content into it with jQuery. I finished the function to completely check for a winner. Essentially it's complete as a two-player game.
+
+**Link to work:** [FreeCodeCamp Tic-Tac-Toe](https://github.com/rickMcGavin/tic-tac-toe)
+
 ### Day 23: January 25, 2017
 **Today's Progress**
 - 75 minutes FCC Tic-Tac-Toe Project
@@ -7,7 +30,7 @@
 **Thoughts**
 I am moving along nicely with this project now. I'm almost done making this a functional 2-player game. After that, I'll have to make it 1-player, which should be interesting. It shouldn't be too hard if it just chooses randomly, but I'm not sure how to approach coding it in a way that will make it choose the best choices.
 
-**Link to work** [FreeCodeCamp Tic-Tac-Toe](https://github.com/rickMcGavin/tic-tac-toe)
+**Link to work:** [FreeCodeCamp Tic-Tac-Toe](https://github.com/rickMcGavin/tic-tac-toe)
 
 
 ### Day 22: January, 24 2017
