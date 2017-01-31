@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 26: January 30, 2017
+**Today's Progress**
+- 200 minutes FCC Tic-Tac-Toe Project
+
+**Thoughts**
+
+I finally completed the tic-tac-toe challenge. It's funny how taking some time away can make it a lot easier to just sit down and figure out why it wasn't working before. I added some @media queries to make it responsive and playable on small screens. The JS is definitely not optimal, but it works.
+
+**Link to work:**
+[FreeCodeCamp Tic-Tac-Toe: odepen](https://codepen.io/rickMcGavin/full/JEOaVd/)
+[FreeCodeCamp Tic-Tac-Toe: github](https://github.com/rickMcGavin/tic-tac-toe)
+
 ### Day 25: January 28, 2017
 **Today's Progress**
 - 100 minutes FCC Tic-Tac-Toe Project
