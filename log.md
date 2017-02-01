@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 27: January 31, 2017
+**Today's Progress**
+- 200 minutes FCC Simon Game Project
+
+**Thoughts**
+
+I have built the bulk of the user interface. I only need to complete a start button, strict button, & on/off button. I also will need labels for all of them. Then I can move on to the functionality in JS. So far, I am definitely loving this project as much as I thought I would. I can't wait to dig in to the javascript.
+
+**Link to work:**
+
+[FreeCodeCamp: Simon Game](https://github.com/rickMcGavin/simon)
+
 ### Day 26: January 30, 2017
 **Today's Progress**
 - 200 minutes FCC Tic-Tac-Toe Project
@@ -9,6 +21,7 @@
 I finally completed the tic-tac-toe challenge. It's funny how taking some time away can make it a lot easier to just sit down and figure out why it wasn't working before. I added some @media queries to make it responsive and playable on small screens. The JS is definitely not optimal, but it works.
 
 **Link to work:**
+
 [FreeCodeCamp Tic-Tac-Toe: codepen](https://codepen.io/rickMcGavin/full/JEOaVd/)
 
 [FreeCodeCamp Tic-Tac-Toe: github](https://github.com/rickMcGavin/tic-tac-toe)
