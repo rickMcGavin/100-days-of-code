@@ -11,6 +11,9 @@ The flexbox article above on medium is fantastic for making quick sense of flex 
 
 Finished the HTML/CSS portion of the project so far. I added the the basic features of turning the game on/off. I also adjusted the box shadow for the start button when you click the button.
 
+**Link to work:**
+
+[FreeCodeCamp: Simon Game](https://github.com/rickMcGavin/simon)
 
 ### Day 27: January 31, 2017
 **Today's Progress**
