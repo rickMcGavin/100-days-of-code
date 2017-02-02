@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 28: February 1, 2017
+**Today's Progress**
+- 1 hour [Understanding Flexbox: Everything You Need to know](https://medium.freecodecamp.com/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af#.w26mj27k9) by Ohans Emmanuel
+- 150 minutes FCC Simon Game Projects
+
+**Thoughts**
+
+The flexbox article above on medium is fantastic for making quick sense of flex box. I had a pretty strong understanding before. Although I admittedly mostly used it for vertical alignment and it's flex-wrap ability. I have not completely worked my way through the article (it's very comprehensive), but I have a much stronger sense I can build most of my HTML/CSS layouts utilizing the CSS Flexbox model.
+
+Finished the HTML/CSS portion of the project so far. I added the the basic features of turning the game on/off. I also adjusted the box shadow for the start button when you click the button.
+
+
 ### Day 27: January 31, 2017
 **Today's Progress**
 - 200 minutes FCC Simon Game Project
