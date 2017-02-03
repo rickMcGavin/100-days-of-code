@@ -1,6 +1,24 @@
 # 100 Days Of Code - Log
 
+### Day 29: February 2, 2017
+
+**Today's Progress**
+- 1 hour [Understanding Flexbox: Everything You Need to know](https://medium.freecodecamp.com/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af#.w26mj27k9) by Ohans Emmanuel
+- 50 minutes [Javascript Understanding The Weird Parts](https://www.udemy.com/understand-javascript/)
+- 50 minutes FCC Simon Game Projects
+
+Still have to give some credit to the flexbox article above. It's been immensely helpful in helping me better understand flexbox. I practiced by making some nav bars. I love how clean and easy it was to build a nav with flexbox.
+
+After being fairly confused by Kyle Simpson's [YDKJS](https://github.com/getify/You-Dont-Know-JS) book 3, I decided to load up Understanding the Weird Parts. It's been a very helpful video course so far. I think I definitely should have started with this then moved to YDKJS, but either way, I'm learning JavaScript better.
+
+The Simon game was smooth sailing until now. I'm trying to make the the computer move play the button presses, and it's just not working correctly. I don't know why, but setInterval just gets progressively faster every time it's ran. I will figure it out though.
+
+**Link to work:**
+
+[FreeCodeCamp: Simon Game](https://github.com/rickMcGavin/simon)
+
 ### Day 28: February 1, 2017
+
 **Today's Progress**
 - 1 hour [Understanding Flexbox: Everything You Need to know](https://medium.freecodecamp.com/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af#.w26mj27k9) by Ohans Emmanuel
 - 150 minutes FCC Simon Game Projects
