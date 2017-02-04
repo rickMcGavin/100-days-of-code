@@ -9,6 +9,9 @@ I'm 25% of the way through JavaScript understanding the weird parts. It has been
 
 I figured out the fairly challenging problem I was having with the Simon game, and the elements all lighting up at once. Once, I figured out how to solve that with a recursive function (very cool), I realized I was having trouble with the player's turn. When the player clicked the buttons, nothing happened! I was using getElementById(), and changing it to querySelector seemed to solve all my problems. I can't imagine why though, and I can't find anywhere that says this is a known issue.
 
+**Link to work:**
+
+[FreeCodeCamp: Simon Game](https://github.com/rickMcGavin/simon)
 
 ### Day 29: February 2, 2017
 
