@@ -1,5 +1,23 @@
 # 100 Days Of Code - Log
 
+### Day 31: February 4, 2017
+- 200 minutes FCC Simon Game Projects
+
+**Thoughts**
+
+After my first 4 pomodoros (200 minutes), I can say I'm quite frustrated. I easily solved the issue I'm having right now in jQuery. However, I'm quite dead set in building this with Vanilla JS. I am really struggling though.
+
+I've created a function that will be called numerous times, and each time it's called, I'm setting another event listener, which is inflating my player's array of moves. In jQuery, I did have a similar issue with the tic-tac-toe game, which I easily solved by just adding .unbind("click") before using jQuery's .click() method.
+
+This does not seem nearly as easy in JavaScript. I tried using removeEventListener(), but that requires you to name the function. When I name the function, and move the code inside the named function, and run a named function instead of an anonymous function, I do not get the same results.
+
+After much difficulty with it tonight, I just am not understanding. I guess I will have to battle it another day.
+
+**Link to work:**
+
+[FreeCodeCamp: Simon Game](https://github.com/rickMcGavin/simon)
+
+
 ### Day 30: February 3, 2017
 - 25 minutes [Javascript Understanding The Weird Parts](https://www.udemy.com/understand-javascript/)
 - 200 minutes FCC Simon Game Projects
