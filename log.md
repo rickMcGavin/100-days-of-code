@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 32: February 5, 2017
+- [x] 25 minutes [Javascript Understanding The Weird Parts](https://www.udemy.com/understand-javascript/)
+- [x] 100 minutes Javascript30 by Wes Bos
+- [x] 50 minutes FCC Simon Game Challenge
+
+**Thoughts**
+
+I am absolutely starting to wish I had started [Javascript Understanding The Weird Parts](https://www.udemy.com/understand-javascript/) sooner. I am only on session 3, and it's just great information delivered in a very understandable way. Today was largely about comparison operators, and what operators take precedence over others, and in which direction they process (left-to-right) or (right-to-left). I definitely reviewed some things I knew regarding the equality operator and strict equality operator, but the instructor does a great job really digging in to how things work. I also didn't realize you could use comparison operators to set variables. The example given was:
+
+name = name || "<your name here>";
+
+I feel somewhat slow for not knowing this yet, but then again, I'm just now taking the course.
+
+I did the Javascript30 day 1 challenge where you build a drum kit. I rather enjoyed this and learned a lot while I was at it. I was able to immediately apply it to my Simon Game by utilizing the same method for playing audio files.
+
+I fixed the issue with my event listeners by just taking them out of a function. I have to get better at recognizing when I'm really frustrated with an issue, and changing gears. It might be best to work on a tutorial type of project or a video course to get my head right again. Also, the solution I'm looking for may pop up.
+
+**Link to work:**
+
+[FreeCodeCamp: Simon Game](https://github.com/rickMcGavin/simon)
+
 ### Day 31: February 4, 2017
 - 200 minutes FCC Simon Game Projects
 
