@@ -1,5 +1,28 @@
 # 100 Days Of Code - Log
 
+### Day 33: February 6, 2017
+- [x] 75 minutes [Javascript Understanding The Weird Parts](https://www.udemy.com/understand-javascript/)
+- [x] [JavaScript30](https://javascript30.com/) by Wes Bos
+- [x] [Sublime Text Book](https://sublimetextbook.com/) by Wes Bos
+- [x] freeCodeCamp Simon Game
+
+**Thoughts**
+I went through a lot of JS: Understanding the Weird Parts today. I'm about 52% complete. I've been watching it on 2x speed, and I cannot even fathom how someone can watch it at 1x. It sounds completely normal at 2x, and I cannot say that for every course I take. I learned about the subtle difference between JSON and Object Literal Notation, including what the method stringify does. The course provides a good explanation of first-class functions as well as good explanations of function statements and function expressions, which I did not properly understand before.
+
+I watched the first video, and read the first few chapters of Wes Bos's Sublime Text Book. It's already proven incredibly useful. I love the command palette and goto anything. These are possibly all Atom.io features, but Sublime Text does seem lightning fast. It is also what I know Red Ventures developers use. 
+
+On a side note, I am tempted to make a similar article to John Washam's [Why I Studied Full-Time for 8 Months for a Google Interview](https://googleyasheck.com/why-i-studied-full-time-for-8-months-for-a-google-interview/) only for working at Red Ventures.
+
+I completed day 2 of JS30 as well. This little trick he does where he builds a clock with JS and CSS manipulation definitely has me thinking how this may be accomplished to help my Pomodoro timer.
+
+With my Simon game, I was able to build a large part of the necessary functionality I was looking for: check for a winner, play sound when move is wrong, strict mode works. However, I have one hang up: I cannot get the audio to play correctly. When the game gets to about round 12, it starts to slow down immensely. I tried playing the audio strictly through the JS without hitting the DOM, and just ran in to different issues where the computer turns became increasingly high pitched and muffled.
+
+I saw a stack overflow thread that tells you just to change the source of the audio and load it. I think that may be the trick. I'll have to try it tomorrow though.
+
+**Links to work:**
+
+[FreeCodeCamp: Simon Game](https://github.com/rickMcGavin/simon)
+
 ### Day 32: February 5, 2017
 - [x] 25 minutes [Javascript Understanding The Weird Parts](https://www.udemy.com/understand-javascript/)
 - [x] 100 minutes Javascript30 by Wes Bos
