@@ -1,5 +1,24 @@
 # 100 Days Of Code - Log
 
+### Day 34: February 6, 2017
+- [x] 50 minutes [Javascript Understanding The Weird Parts](https://www.udemy.com/understand-javascript/)
+- [x] 25 minutes [Sublime Text Book](https://sublimetextbook.com/) by Wes Bos
+- [x] 25 minutes [JavaScript30](https://javascript30.com/) by Wes Bos
+- [x] 75 minutes [freeCode Camp Simon Game](https://www.freecodecamp.com/challenges/build-a-simon-game)
+
+**Thoughts**
+
+I worked through at least 50 minutes of JavaScript: Understanding the Weird Parts, finishing the section on Objects and Functions. I was already rather familiar with IIFEs and Closures. I had used function factories in the past without really knowing their name or understanding what was going on with them. The explanation of call(), apply(), and bind() was also quite helpful. What really rocked my world was the way he showed and explained call back functions. While I believe I've used callback functions in an organic manner in the past. They had never been consciously brought to my attention. I am currently 63% complete, and am looking forward to wrapping the course up definitely this week at this pace.
+
+I finished day 3 of JS30 now as well. I really like Wes Bos's course here because it's all so practical, and often centers around manipulating/utilizing the DOM. Why do so many books/courses offer the most theoretical applications of their material? 
+
+Still stuck on this sound issue. Despite working on it for well over an hour, I made no progress today with it unfortunately. The best working version I have of it so far is the one that consistently goes nuts on round 12.
+
+**Links to work:**
+
+[FreeCodeCamp: Simon Game](https://github.com/rickMcGavin/simon)
+
+
 ### Day 33: February 6, 2017
 - [x] 75 minutes [Javascript Understanding The Weird Parts](https://www.udemy.com/understand-javascript/)
 - [x] [JavaScript30](https://javascript30.com/) by Wes Bos
