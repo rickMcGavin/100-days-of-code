@@ -7,7 +7,8 @@
 - [x] 250 minutes [freeCode Camp Simon Game](https://www.freecodecamp.com/challenges/build-a-simon-game)
 
 **Thoughts**
-While disappointing that I did not completely finish the Simon game. It's basically complete, and I'm past all the major JavaScript hang ups. I just have some final tweaks I want to add: 
+
+While disappointing that I did not completely finish the Simon game tonight, It's basically complete, and I'm past all the major JavaScript hang ups. I just have some final tweaks I want to add: 
 - [ ] Make a game won SFX
 - [ ] Rebuild the HTML/CSS with some flexbox
 - [ ] create a game won modal
