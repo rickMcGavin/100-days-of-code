@@ -1,5 +1,23 @@
 # 100 Days Of Code - Log
 
+### Day 36: February 8, 2017
+
+- [x] 75 minutes [freeCode Camp Simon Game](https://www.freecodecamp.com/challenges/build-a-simon-game)
+- [x] 25 minutes [Sublime Text Book](https://sublimetextbook.com/) by Wes Bos
+- [ ] 25 minutes [JavaScript30](https://javascript30.com/) by Wes Bos
+
+**Thoughts**
+Finishing the Simon game felt pretty amazing. Can't lie about that. I'm happy to have the challenge behind me, and now I'm on to the data visualization portion of freeCodeCamp.
+
+Also still learning a great deal due to Wes Bos's Sublime Text Book. I'm making Anki cards on what I learn that I find relevant, which has been quite helpful with remembering short cuts.
+
+**Links to work:**
+
+[FreeCodeCamp: Simon Game on gitHub](https://github.com/rickMcGavin/simon)
+
+[FreeCodeCamp: Simon Game on CodePen](http://codepen.io/rickMcGavin/full/qRoVXr/)
+
+
 ### Day 35: February 7, 2017
 - [x] 25 minutes [Javascript Understanding The Weird Parts](https://www.udemy.com/understand-javascript/)
 - [ ] 25 minutes [Sublime Text Book](https://sublimetextbook.com/) by Wes Bos
