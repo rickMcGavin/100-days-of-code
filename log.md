@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 37: February 9, 2017
+
+- [x] 50 minutes working on new plan and design of my portfolio
+- [x] 25 minutes [Sublime Text Book](https://sublimetextbook.com/) by Wes Bos
+- [x] 50 minutes [JavaScript30](https://javascript30.com/) by Wes Bos
+
+I continue to learn some very cool things about Sublime Text. Thing I have in fact wanted to know! There were some topics I didn't have much interest in: theme creation (no interest at this time at least) and snippet creation (again I'm really more at a point where I'd rather rely on someone else's themes).
+
+The part on how to add multiple carets with your mouse I knew, but I had been dying to know if there was a keyboard shortcut possible for this same behavior. Of course there is! I also now realize how you can add edit multiple lines and catch different words (modifying multiple lines at once).
+
+Also learning how to select and place carets on multiple words (cmd + d) and also how to sometimes skip words was huge! 
+
+I just did Wes's array cardio day 1. Started easy. Got harder! I love these little algorithm challenges though. It was nice to see him include it. I always want to improve at these.
+
 ### Day 36: February 8, 2017
 
 - [x] 75 minutes [freeCode Camp Simon Game](https://www.freecodecamp.com/challenges/build-a-simon-game)
