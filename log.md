@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 38: February 10, 2017
+
+- [x] 25 minutes [Sublime Text Book](https://sublimetextbook.com/) by Wes Bos
+- [x] 50 minutes [Javascript Understanding The Weird Parts](https://www.udemy.com/understand-javascript/)
+- [x] 50 minutes [JavaScript30](https://javascript30.com/) by Wes Bos
+- [ ] 50 minutes making corrections on wikipedia viewer
+
+I probably shouldn't be, but I'm astonished at how great the content of Wes Bos's Sublime Text Book is. I hit the section where Wes claims readers will say 'I didn't know Sublime did that!' Sure enough, I started saying exactly that. I've been craving to know how to move around in my text editor better with the keyboard. Section 12 on Moving, Selecting, Expanding, and Wrapping provided exactly that effect. 
+
+It was also a smart choice to make Anki cards out of all these tips and key board shortcuts.
+
+I did Wes Bos's 5th day of JS30. I love the way the flex image gallery looks, and definitely learned how to do some cool stuff with JS while also working with HTML/CSS. That's what I like most about his course. There are a lot of cool things to do out there in web development, and too many JavaScript courses abstract away the specifics, so you can 'understand' better how certain concepts apply. However, applying the concepts is tricky as is, and rarely covered. 
+
+
 ### Day 37: February 9, 2017
 
 - [x] 50 minutes working on new plan and design of my portfolio
