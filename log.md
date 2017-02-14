@@ -1,5 +1,27 @@
 # 100 Days Of Code - Log
 
+### Day 39: February 11, 2017
+
+- [x] 25 minutes [Sublime Text Book](https://sublimetextbook.com/) by Wes Bos
+- [x] 75 minutes [Javascript Understanding The Weird Parts](https://www.udemy.com/understand-javascript/)
+- [x] 50 minutes [JavaScript30](https://javascript30.com/) by Wes Bos
+- [x] 50 minutes making corrections on wikipedia viewer
+
+
+**Thoughts**
+The Sublime text book is starting to somewhat ramp down in its effectiveness for me personally. The later section of the book is focused on some areas that either don't really apply to me right now or I am simply not that interested in. 
+
+As I'm working through [Javascript Understanding The Weird Parts](https://www.udemy.com/understand-javascript/), the section where you build your own small framework/library is certainly interesting and tricky. I will have to keep practicing it for it to really click I think. I really like the way he created function prototypes in the video. It's different than the way I had been.
+
+I completed Day 6 of JS30 with the type ahead AJAX features. What a great video. It did only take about 25 minutes, but I learned a lot of great stuff that I'm going to use. It actually all applies to the rebuild of the wikipedia viewer that I have planned. 
+
+I also completed day 7 of JS30. I'm pretty good with algorithm challenges, so this one was actually pretty easy for me. It's also not very long in general.
+
+I spent my 50 minutes working on my new revamped wikipedia viewer, but I'm not happy with the style or color choices. I am going to look at doing it in a more material design type of way.
+
+
+
+
 ### Day 38: February 10, 2017
 
 - [x] 25 minutes [Sublime Text Book](https://sublimetextbook.com/) by Wes Bos
