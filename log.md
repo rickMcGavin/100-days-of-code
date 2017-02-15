@@ -1,6 +1,36 @@
 # 100 Days Of Code - Log
 
-### Day 39: February 11, 2017
+### Day 41: February 14, 2017
+
+- [x] 225 minutes on freeCodeCamp wiki viewer upgrade.
+
+
+**Thoughts**
+I am 'mostly' finished with my rebuild of the wikipedia viewer. It needs a polyfill to properly work on mobile and Safari. It's been actually a pretty great learning experience. 
+
+**Link to work on codepen:** 
+
+[Wiki Viewer](http://codepen.io/rickMcGavin/full/vgbmvJ/)
+
+**Link to work on github:**
+
+[Wiki Viewer](https://github.com/rickMcGavin/wikipedia_viewer)
+
+
+
+### Day 40: February 13, 2017
+
+- [x] Day 8 [JavaScript30](https://javascript30.com/) by Wes Bos 
+- [x] Day 9 [JavaScript30](https://javascript30.com/) by Wes Bos 
+- [x] Day 10 [JavaScript30](https://javascript30.com/) by Wes Bos 
+- [x] Wikipedia viewer upgrade
+
+**Thoughts**
+I completed 3 days of the JS30 challenge today. The fun with HTML5 canvas, 14 must know dev tool tricks, and hold shift to check multiple checkboxes. I did decently well with the canvas, and the dev tool tricks I felt was actually kind of disappoints. It wasn't what I was expecting. I gave the challenge where you hold shift to check multiple check boxes a fair shot, but I had to rely on the video. I really liked the concept I learned with setting flags. Who knows how long it would have taken me to stumble on that myself.
+
+Aside from that, I've worked on my upgraded wikipedia viewer. I'm rather happy with it so far. I have a design I'm happy with. I was able to fetch the json file after much struggling. I could have saved myself a ton of trouble by watching Wes's video again, even just the small piece discussing fetch. I also apparently made the mistake of doing all this while extremely tired. I was making tons of silly mistakes. Lesson learned..... I hope.
+
+### Day 39: February 12, 2017
 
 - [x] 25 minutes [Sublime Text Book](https://sublimetextbook.com/) by Wes Bos
 - [x] 75 minutes [Javascript Understanding The Weird Parts](https://www.udemy.com/understand-javascript/)
@@ -22,7 +52,7 @@ I spent my 50 minutes working on my new revamped wikipedia viewer, but I'm not h
 
 
 
-### Day 38: February 10, 2017
+### Day 38: February 11, 2017
 
 - [x] 25 minutes [Sublime Text Book](https://sublimetextbook.com/) by Wes Bos
 - [x] 50 minutes [Javascript Understanding The Weird Parts](https://www.udemy.com/understand-javascript/)
@@ -36,7 +66,7 @@ It was also a smart choice to make Anki cards out of all these tips and key boar
 I did Wes Bos's 5th day of JS30. I love the way the flex image gallery looks, and definitely learned how to do some cool stuff with JS while also working with HTML/CSS. That's what I like most about his course. There are a lot of cool things to do out there in web development, and too many JavaScript courses abstract away the specifics, so you can 'understand' better how certain concepts apply. However, applying the concepts is tricky as is, and rarely covered. 
 
 
-### Day 37: February 9, 2017
+### Day 37: February 10, 2017
 
 - [x] 50 minutes working on new plan and design of my portfolio
 - [x] 25 minutes [Sublime Text Book](https://sublimetextbook.com/) by Wes Bos
@@ -50,7 +80,7 @@ Also learning how to select and place carets on multiple words (cmd + d) and als
 
 I just did Wes's array cardio day 1. Started easy. Got harder! I love these little algorithm challenges though. It was nice to see him include it. I always want to improve at these.
 
-### Day 36: February 8, 2017
+### Day 36: February 9, 2017
 
 - [x] 75 minutes [freeCode Camp Simon Game](https://www.freecodecamp.com/challenges/build-a-simon-game)
 - [x] 25 minutes [Sublime Text Book](https://sublimetextbook.com/) by Wes Bos
@@ -68,7 +98,7 @@ Also still learning a great deal due to Wes Bos's Sublime Text Book. I'm making 
 [FreeCodeCamp: Simon Game on CodePen](http://codepen.io/rickMcGavin/full/qRoVXr/)
 
 
-### Day 35: February 7, 2017
+### Day 35: February 8, 2017
 - [x] 25 minutes [Javascript Understanding The Weird Parts](https://www.udemy.com/understand-javascript/)
 - [ ] 25 minutes [Sublime Text Book](https://sublimetextbook.com/) by Wes Bos
 - [ ] 25 minutes [JavaScript30](https://javascript30.com/) by Wes Bos
@@ -88,7 +118,7 @@ Very excited to wrap it all up tomorrow, and claim that Front End Certificate.
 
 [FreeCodeCamp: Simon Game](https://github.com/rickMcGavin/simon)
 
-### Day 34: February 6, 2017
+### Day 34: February 7, 2017
 - [x] 50 minutes [Javascript Understanding The Weird Parts](https://www.udemy.com/understand-javascript/)
 - [x] 25 minutes [Sublime Text Book](https://sublimetextbook.com/) by Wes Bos
 - [x] 25 minutes [JavaScript30](https://javascript30.com/) by Wes Bos
