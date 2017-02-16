@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 42: February 15, 2017
+- [x] Updated Resume
+- [x] Updated Portfolio
+
+**Thoughts**
+
+I admittedly made the mistake of not updating my resume or portfolio regularly. Then again, you progress so quickly early on that it can be easy to let it get behind. 
+
+I did a lot of work on my resume to focus on transferable skills, and display as much of my ability to code as possible.
+
+I have built the card that will hold my projects for my portfolio, which means my projects section is basically complete. I just need to template it out. I could probably even write some javascript code to have it built dynamically from an object to be honest.
+
+**Link to work:**
+
+[Portfolio](https://github.com/rickMcGavin/portfolio);
+
 ### Day 41: February 14, 2017
 
 - [x] 225 minutes on freeCodeCamp wiki viewer upgrade.
