@@ -1,5 +1,20 @@
 # 100 Days Of Code - Log
 
+### Day 43: February 16, 2017
+- [x] First 7 videos of ReactJS for beginners
+- [x] Projects and About section complete for page.
+
+I watched the first 7 videos of React.js. It was good. Much of it I did know at this point as I've done a little bit of work in React. So far, I've found React fairly intuitive, and it is largely the way I want to build sites.
+
+My projects section and about section are complete with my portfolio. I just need to make my contact section, and then make the whole thing responsive.
+
+I do have to take a moment to acknowledge something hilarious that happened while building my project cards. I was about to code the third card in HTML when I realized... I should just write some javascript to code this all out on page load every time. Sure enough that was a much better idea.
+
+**Link to work:**
+
+[Portfolio](https://github.com/rickMcGavin/portfolio);
+
+
 ### Day 42: February 15, 2017
 - [x] Updated Resume
 - [x] Updated Portfolio
