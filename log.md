@@ -1,5 +1,30 @@
 # 100 Days Of Code - Log
 
+
+### Day 45: February 18, 2017
+
+- [x] Finish Portfolio
+- [x] Learn more react
+
+Finished my portfolio today. I put in the mobile navigation. It's done... for now. I want to move on to all the fun things I can now do with React. 
+
+I learned a lot while making my portfolio, and now my portfolio is probably my favorite project that I've made. I'm still not in love with the cards. Love the about and contact sections though, especially on mobile.
+
+I got to spend some time on the React tutorial with Wes Bos. I'm not 100% sure how prepared to do this I will be, but it really shouldn't be too different.
+
+
+
+### Day 44: February 17, 2017
+
+- [x] Finish portfolio
+- [ ] Learn more React
+
+I'll try to update regarding yesterday since I forgot to write my log. I didn't finish all of my portfolio nor did I get to learn React at all. 
+
+**Link to work:**
+
+[Portfolio](https://github.com/rickMcGavin/portfolio);
+
 ### Day 43: February 16, 2017
 - [x] First 7 videos of ReactJS for beginners
 - [x] Projects and About section complete for page.
