@@ -1,10 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 46: February 19, 2017
+
+- [x] 50 minutes on JavaScript 30 
+- [x] 200 minutes React for Beginners
+
+**Thoughts** 
+
+I did about 50 minutes of JavaScript 30, working on the HTML5 video player challenge. It was good. I The biggest thing I really take away from Wes's videos is the way he shows you how to grab certain pieces of data out of DOM Object trees. 
+
+I've been doing Wes's React course, but I don't think it's what I need considering where I"m at. It's funny that Wes is such a major proponent of building tons of little things, but his React course is one big app. Granted, it's composed of many small components. I just feel like I'm really missing some things. I need to build shit. Lots of it.
 
 ### Day 45: February 18, 2017
 
 - [x] Finish Portfolio
 - [x] Learn more react
+
+**Thoughts**
 
 Finished my portfolio today. I put in the mobile navigation. It's done... for now. I want to move on to all the fun things I can now do with React. 
 
@@ -12,12 +24,17 @@ I learned a lot while making my portfolio, and now my portfolio is probably my f
 
 I got to spend some time on the React tutorial with Wes Bos. I'm not 100% sure how prepared to do this I will be, but it really shouldn't be too different.
 
+**Link to work:**
+
+[Portfolio](https://github.com/rickMcGavin/portfolio);
 
 
 ### Day 44: February 17, 2017
 
 - [x] Finish portfolio
 - [ ] Learn more React
+
+**Thoughts**
 
 I'll try to update regarding yesterday since I forgot to write my log. I didn't finish all of my portfolio nor did I get to learn React at all. 
 
@@ -28,6 +45,8 @@ I'll try to update regarding yesterday since I forgot to write my log. I didn't 
 ### Day 43: February 16, 2017
 - [x] First 7 videos of ReactJS for beginners
 - [x] Projects and About section complete for page.
+
+**Thoughts**
 
 I watched the first 7 videos of React.js. It was good. Much of it I did know at this point as I've done a little bit of work in React. So far, I've found React fairly intuitive, and it is largely the way I want to build sites.
 
