@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 47: February 20, 2017
+
+- [x] 100 minutes React practice
+- [x] JavaScript 30: Day 12.
+
+Right now I'm focused solely on React. I do love how fast React can be. I hate how ugly it is. I just can't deny that. It's hideous to look at. I don't like how it has bizarre naming conventions also where you sometimes Capitalize and sometimes you don't. Plain ol' JS was a lot easier to grasp. Ok, enough griping.
+
+I seriously am stuck on video 13 of this course. It doesn't make a ton of sense to me why it's not working. Everything seems to check out. When I copy and paste the stepped solutions code, it still fails. What the hell???
+
+
+
 ### Day 46: February 19, 2017
 
 - [x] 50 minutes on JavaScript 30 
