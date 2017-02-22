@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 48: February 21, 2017
+
+- [x] 100 minutes Angular 2 learning
+- [x] JavaScript 30: Day 13
+
+Day 13 of JS30 is actually really cool. I always wanted to know how to do slide on scroll AND make the animation fire more than once. 
+
+Due to what seems to be a massive amount of opportunity in my area, I switched over to Angular. Seriously, I see tons of ads requesting Angular experience, and I basically never see requests for React. I picked up a course on udemy for Angular 2, and I just have to say that it makes so much more sense to me so far compared to React. Oddly enough, it's making a lot of the React material make more as well.
+
+
+
 ### Day 47: February 20, 2017
 
 - [x] 100 minutes React practice
