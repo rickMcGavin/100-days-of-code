@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 49: February 22, 2017
+
+- [x] 25 minutes reading Sublime Text book by Wes Bos
+- [x] 25 minutes JS30: Day 14
+- [x] 100 minutes Angular 2
+
+I finished the Sublime Text book finally after sitting on the last few chapters while focusing on my portfolio and resume. I wasn't missing much. Just a few emmet tips. The section on emmet was definitely what applied to me most, and was most interesting.
+
+More Angular 2 leanring. I'm eager to get to a point where I feel like I understand. 
+
+
+
+
 ### Day 48: February 21, 2017
 
 - [x] 100 minutes Angular 2 learning
