@@ -8,7 +8,7 @@
 
 I finished the Sublime Text book finally after sitting on the last few chapters while focusing on my portfolio and resume. I wasn't missing much. Just a few emmet tips. The section on emmet was definitely what applied to me most, and was most interesting.
 
-More Angular 2 leanring. I'm eager to get to a point where I feel like I understand. 
+More Angular 2 leanring. I understand the concepts and everything. I'm very eager to get to a point where I can build something with Angular or React the way I can just sit down and build something in HTML/CSS/JS. 
 
 
 
