@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 50: February 23, 2017
+- [x] 50 minutes Angular 2
+
+I spent a lot of time today playing the job hunting game, so I minimalized my time learning. I need to find a better approach to this job search thing though. Have a few tricks up my sleeve.
+
+I learned more Angular 2. Finished section on components, templates & databinding. Starting to make a lot more sense. Still eager to be able to use this easily.
+
+I want to get in to some sort of project for the weekend as well. Something different than my normal.
+
+
+
 ### Day 49: February 22, 2017
 
 - [x] 25 minutes reading Sublime Text book by Wes Bos
