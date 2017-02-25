@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 51: February 24, 2017
+- [x] 100 minutes project work (North Harbor Investigations)
+
+I didn't fully plan to start this project tonight, but I know I wanted to get it started already. It's a private investigator site for a friend of mine who is... you guessed it, a private investigator. I like the way the site is coming along. 
+
+I want to have smooth scrolling in this (ideally without jQuery). I've upped my SCSS game this time around by fully utilizing partials and mixins. I finally understand how to use them! 😂 They weren't that hard. It just took one good example for it to click with me. I was definitely not using SCSS to its full potential in the past.
+
+I will likely have a nav bar fixed to the top after you scroll down. That said, I'm contemplating having a menu that slides out from the right for all versions (desktop and mobile).
+
+**Link to work:**
+
+[North Harbor Investigations](https://github.com/rickMcGavin/North-Harbor)
+
 ### Day 50: February 23, 2017
 - [x] 50 minutes Angular 2
 
