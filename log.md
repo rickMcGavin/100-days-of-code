@@ -1,7 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 53: February 26, 2017
+- [ ] 50 minutes React Markdown Previewer
+
+**Thoughts** 
+
+I feel like I should really be able to make this damn Markdown Previewer by now, so I've spent some time back on React. I think I've been overwhelming myself with stuff before applying. I went back to videos from Bucky Roberts's YouTube Channel. I remember watching his React videos when I was just doing the intermediate projects, and thinking to myself, "This doesn't seem hard at all." The way he breaks it down in its most simplistic fashion just makes perfect sense to me. Wes's videos aren't bad, but he also teaches you to break your components up in to separate files, how to install create-react-app, how to get your webpack server going. For a total beginner, it's probably best to just show them how to write some React components, even if it isn't the most efficient way, and then get back to them later on the efficiencies and separate files for components, etc.
+
+
+### Day 52: February 25, 2017
+
+- [x] 250 minutes Angular 2 
+
+**Thoughts**
+
+I really don't have many thoughts. I worked through the tutorails, and I'm a little disappointed with the udemy course. It's not fully updated from the beta, so mistakes were made that wasted a lot of time. I nearly requested a refund. 😮
+
+
 ### Day 51: February 24, 2017
 - [x] 100 minutes project work (North Harbor Investigations)
+
+**Thoughts**
 
 I didn't fully plan to start this project tonight, but I know I wanted to get it started already. It's a private investigator site for a friend of mine who is... you guessed it, a private investigator. I like the way the site is coming along. 
 
@@ -15,6 +34,8 @@ I will likely have a nav bar fixed to the top after you scroll down. That said, 
 
 ### Day 50: February 23, 2017
 - [x] 50 minutes Angular 2
+
+**Thoughts**
 
 I spent a lot of time today playing the job hunting game, so I minimalized my time learning. I need to find a better approach to this job search thing though. Have a few tricks up my sleeve.
 
@@ -30,6 +51,8 @@ I want to get in to some sort of project for the weekend as well. Something diff
 - [x] 25 minutes JS30: Day 14
 - [x] 100 minutes Angular 2
 
+**Thoughts**
+
 I finished the Sublime Text book finally after sitting on the last few chapters while focusing on my portfolio and resume. I wasn't missing much. Just a few emmet tips. The section on emmet was definitely what applied to me most, and was most interesting.
 
 More Angular 2 leanring. I understand the concepts and everything. I'm very eager to get to a point where I can build something with Angular or React the way I can just sit down and build something in HTML/CSS/JS. 
@@ -42,6 +65,8 @@ More Angular 2 leanring. I understand the concepts and everything. I'm very eage
 - [x] 100 minutes Angular 2 learning
 - [x] JavaScript 30: Day 13
 
+**Thoughts**
+
 Day 13 of JS30 is actually really cool. I always wanted to know how to do slide on scroll AND make the animation fire more than once. 
 
 Due to what seems to be a massive amount of opportunity in my area, I switched over to Angular. Seriously, I see tons of ads requesting Angular experience, and I basically never see requests for React. I picked up a course on udemy for Angular 2, and I just have to say that it makes so much more sense to me so far compared to React. Oddly enough, it's making a lot of the React material make more as well.
@@ -52,6 +77,8 @@ Due to what seems to be a massive amount of opportunity in my area, I switched o
 
 - [x] 100 minutes React practice
 - [x] JavaScript 30: Day 12.
+
+**Thoughts**
 
 Right now I'm focused solely on React. I do love how fast React can be. I hate how ugly it is. I just can't deny that. It's hideous to look at. I don't like how it has bizarre naming conventions also where you sometimes Capitalize and sometimes you don't. Plain ol' JS was a lot easier to grasp. Ok, enough griping.
 
