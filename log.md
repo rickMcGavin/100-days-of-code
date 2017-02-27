@@ -1,11 +1,19 @@
 # 100 Days Of Code - Log
 
 ### Day 53: February 26, 2017
-- [ ] 50 minutes React Markdown Previewer
+- [x] 50 minutes learning some more React
 
-**Thoughts** 
+**Thoughts**
 
-I feel like I should really be able to make this damn Markdown Previewer by now, so I've spent some time back on React. I think I've been overwhelming myself with stuff before applying. I went back to videos from Bucky Roberts's YouTube Channel. I remember watching his React videos when I was just doing the intermediate projects, and thinking to myself, "This doesn't seem hard at all." The way he breaks it down in its most simplistic fashion just makes perfect sense to me. Wes's videos aren't bad, but he also teaches you to break your components up in to separate files, how to install create-react-app, how to get your webpack server going. For a total beginner, it's probably best to just show them how to write some React components, even if it isn't the most efficient way, and then get back to them later on the efficiencies and separate files for components, etc.
+It was definitely more than 50 minutes. I just didn't keep very good track after the first 50. 
+
+I feel like I should really be able to make this damn Markdown Previewer by now, so I've spent some time back on React. I think I've been overwhelming myself with stuff before applying what I've learned. 
+
+I went back to videos from [Bucky Roberts's YouTube Channel](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBuKtLgPR_zWYnrwv-JllpA). I remember watching his React videos when I was just doing the intermediate projects, and thinking to myself, "This doesn't seem hard at all." The way he breaks it down in its most simplistic fashion just makes perfect sense to me. 
+
+Wes's videos aren't bad, but he also teaches you to break your components up in to separate files, how to install create-react-app, how to get your webpack server going. For a total beginner with React, it's probably best to just show them how to write some React components and play around with them, even if it isn't the most efficient way, and then get back to them later on the efficiencies and separate files for components, etc.
+
+Basically, I'd like to be able to use React for all the fun simple thing I can already do with JavaScript: manipulating the DOM, fetching JSONs, etc. Nope, it's far more complex with React. 
 
 
 ### Day 52: February 25, 2017
