@@ -1,6 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 54: February 27, 2017
+
+- [x] Markdown Previewer in React
+
+**Thoughts**
+
+Finally got that Markdown Previewer up and running. I want to do a few things to make it just a little different from what I've seen others do before I put it out there though. Also need to figure out how to deploy to github pages exactly. 🤔 
+
+I also need to figure out how to make it work on codepen. Seems like it was way easier to make locally.
+
+Yea, I use emoticons in this log a lot now. It's fun. 
+
 ### Day 53: February 26, 2017
+
 - [x] 50 minutes learning some more React
 
 **Thoughts**
@@ -26,6 +39,7 @@ I really don't have many thoughts. I worked through the tutorails, and I'm a lit
 
 
 ### Day 51: February 24, 2017
+
 - [x] 100 minutes project work (North Harbor Investigations)
 
 **Thoughts**
