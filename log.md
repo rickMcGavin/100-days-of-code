@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 55: February 28, 2017
+
+- [x] Finish markdown previewer
+
+**Thoughts**
+
+It's not exactly what I had in mind, but I basically wanted the ability to see the output without the editor in the way. So I made a toggle button that... hides the editor. 
+
+**Link to work:**
+
+[Markdown Previewer](https://rickmcgavin.github.io/projects/markdown_previewer/index.html)
+
 ### Day 54: February 27, 2017
 
 - [x] Markdown Previewer in React
