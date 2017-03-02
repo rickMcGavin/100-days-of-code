@@ -1,5 +1,12 @@
 # 100 Days Of Code - Log
 
+### Day 56: March 1, 2017
+
+**Thoughts**
+
+I fixed up a bug in my markdown previewer from yesterday. Spending some time reviewing Wes Bos's React course again. Going slower this time. I think I went too fast before, and just didn't get it because I didn't try to learn well.
+
+
 ### Day 55: February 28, 2017
 
 - [x] Finish markdown previewer
