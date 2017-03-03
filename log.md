@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 57: March 2, 2017
+
+**Thoughts**
+
+Fairly light day. Need some extra rest, and just wanted to catch up to date with Wes Bos's React for Beginners course again. It makes complete sense this time.
+
+I really think a few smaller projects like the one I did from Bucky on his YouTube channel: [TheNewBoston](https://www.youtube.com/user/thenewboston) helped a ton. Now, I'm doing Wes's course, and I'm understanding the way he's breaking components down better. I'm understanding the use of ES6 classes to create components better. It's good. 
+
+I have to admit that it is possible, I simply blew through his course a little too quickly in my eagerness to learn React. Sometimes, it is better to slow down, and really learn the core concepts well and deeply.
+
+I can't wait to have some more fun with React now. Also oddly enough, no major regrets on the Angular 2 course that I took briefly. The high-level concepts were a help. 
+
+**Link to work:**
+
+[Catch of the Day](https://github.com/rickmcgavin/catch-of-the-day)
+
 ### Day 56: March 1, 2017
 
 **Thoughts**
