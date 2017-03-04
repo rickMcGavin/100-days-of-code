@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 58: March 3, 2017
+
+**Thoughs**
+
+- [x] 150 minutes React for Beginners
+
+Moved on in Wes's course where you display state with JSX, you update Order state, and display the order with JSX. I'm actually nearing the end of the course, and I'm finally feeling ready to take on these freeCodeCamp projects.
+
+
+**Link to work:**
+
+[Catch of the Day](https://github.com/rickmcgavin/catch-of-the-day)
+
 ### Day 57: March 2, 2017
 
 **Thoughts**
