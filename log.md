@@ -1,10 +1,29 @@
 # 100 Days Of Code - Log
 
+### Day 59: March 4, 2017
+
+- [x] Finish React for Beginners 
+
+**Thoughts**
+I finished React for Beginners. I now love the course. As much as I struggled and didn't understand at first, I think it's a great course now. 
+
+I maintain that it is probably not a great first course on React. The course by [TheNewBoston](https://www.youtube.com/user/thenewboston) is a great first course. It gets you writing React, and a little comfortable with some of the concepts before moving in on tooling and all that other stuff that Wes covers.
+
+Wes covers all the new stuff you should be doing too like using ES6 classes, and making your code modular that Bucky just doesn't cover in his intro series. 
+
+I don't really feel the need to take Stephen Girder's course that I have on udemy, but I may at some point. It's significantly longer than Wes's, so I have to assume there are new topics covered. Maybe I can just cherry pick topics? 
+
+Anyways tomorrow, I'll start the freeCodeCamp leader board. Doesn't look too challenging.
+
+**Link to work:**
+
+[Catch of the Day](https://github.com/rickmcgavin/catch-of-the-day)
+
 ### Day 58: March 3, 2017
 
-**Thoughs**
-
 - [x] 150 minutes React for Beginners
+
+**Thoughts**
 
 Moved on in Wes's course where you display state with JSX, you update Order state, and display the order with JSX. I'm actually nearing the end of the course, and I'm finally feeling ready to take on these freeCodeCamp projects.
 
