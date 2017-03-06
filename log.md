@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 60: March 5, 2017
+- [x] Start Camper Leaderboard in React
+
+**Thoughts**
+
+I had some odd struggles getting the basic setup going with Create-React-App, but I got it figured out, and I'm well on my way. I have the basic set up ready with a very spartan table layout. Once I get the data from the two links, create the methods to sort them, and then style them, then that's all there really is to this challenge. It will probably take longer than I expect, but I hope to have it complete fairly quickly.
+
+**Link to work**
+
+[Camper Leaderboard](https://github.com/rickMcGavin/camper_leaderboard)
+
 ### Day 59: March 4, 2017
 
 - [x] Finish React for Beginners 
