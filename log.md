@@ -1,12 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 62: March 7, 2017
+
+- [x] Finish freeCodeCamp Leaderboard
+
+**Thoughts**
+My plan to make the leaderboard show the two different lists worked. It took some playing around with it for it to work, but I eventually did get it. I made the styles look as 'material' as possible, and now I'm looking forward to moving on to the next challenge.
+
+**Link to work**
+
+[Camper Leaderboard](https://rickmcgavin.github.io/projects/camper_leaderboard/index.html)
+
 ### Day 61: March 6, 2017
+
 - [x] Pull JSON files in to React
 - [x] Write JSX populating the table with the JSON data
 
 **Thoughts**
 
 I'm starting to really get a grasp on React. Starting to love it. I understand its structure. It's absolutely working out for me now. I was able to pull the data in from the JSON files successfully. I coded up the table to display either sets of data. I just need to figure out a method for switching them. 
+
+**Link to work**
 
 [Camper Leaderboard](https://github.com/rickMcGavin/camper_leaderboard)
 
