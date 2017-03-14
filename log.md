@@ -1,5 +1,30 @@
 # 100 Days Of Code - Log
 
+### Day 65: March 13, 2017
+- [x] Optimized images for portfolio page
+- [x] Ran HTML validation tool for errors
+
+**Thoughts**
+
+I've been thinking more lately about cleaning up my portfolio as best as I can, especially in regards to make sure it is all valid HTML and passes page speed tests. So I did exactly that today. Talk about some craziness. There were definitely some thing you can do that I did not know about. E.g. inlining your CSS above the fold? What the ??? That will be more fun things to dig in to another time.
+
+### Day 64: March 10, 2017
+
+- [x] Took 2.5 hour code test for job
+
+**Thoughts**
+
+It was cool to take my first coding test for a job. It was disappointing that there was an entire question in SQL that I was told wouldn't be there that I stood no chance at solving. I feel good about the others though.
+
+### Day 63: March 8, 2017
+
+- [x] Solved 4 code challenges on Codility in interview preperation
+
+**Thoughts**
+
+In preparation for my interview tomorrow, I mostly worked through code challenges. These things can fry your brain a bit, but I'm glad that I worked on them.
+
+
 ### Day 62: March 7, 2017
 
 - [x] Finish freeCodeCamp Leaderboard
