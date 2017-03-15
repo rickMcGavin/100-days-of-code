@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 66: March 14, 2017
+
+**Thoughts**
+
+Writing this the day after is a little less than optimal, but I fixed some accessibility issues with my projects. I started the 'Git a Web Developer Job' course that I've had for a while, which teaches an entire work flow for developers. It's pretty dope. I should have taken it a while ago. 
+
+**Link to work:**
+
+[Travel Site _Git a Web Developer Job project_](https://github.com/rickMcGavin/travel-site)
+
 ### Day 65: March 13, 2017
 - [x] Optimized images for portfolio page
 - [x] Ran HTML validation tool for errors
