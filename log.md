@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 67: March 15, 2017
+
+**Thoughts**
+
+Consider my mind blown. This course is filling in so many gaps I once had, and it has piqued my curiosity for node. One of the first things you do in the 'Git a Web Developer Job' course is write a little node script that creates an HTML file filled with an h1. You also grab an image off the Internet and save it to a location. I had not been exposed to this type of thing before, and I'm incredibly eager to learn more.
+
+Further in the course, I learn about Gulp and automating certain aspects of the development process. He's teaching PostCSS, which is something I'd been interested in before. So far, it seems to have all the features of SCSS, but it's seems module based. For example, if I want to use variables, I need to load that feature. If I want CSS nesting, I need to load that feature. All of the features are being loaded in Gulp. Frankly I'm happy to add PostCSS to my arsenal. 
+
+This course is honestly filling a ton of gaps and answering a lot of questions I have had. I'm better at using Git as well. I should have started this a while ago.
+
+[Travel Site _Git a Web Developer Job project_](https://github.com/rickMcGavin/travel-site)
+
 ### Day 66: March 14, 2017
 
 **Thoughts**
