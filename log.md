@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 68: March 16, 2017
+
+**Thoughts**
+
+I'm seriously blown away at how good this 'Git a Web Developer Job' course is. I remember people raving about it in one of the Facebook groups I'm in, which is why I picked it up, but I should have taken it so much sooner!
+
+I learned how to use BEM css, which has made me want to completely rewrite all my CSS. Set up browserSync with Gulp, which also gave me a link so I can easily test on my phone. 
+
+He teaches what mobile first means, and then teaches you how to use responsive images, which blew my mind. It serves the correct image at the correct size based on what the user is using. 
+
+This course is filling in almost every gap I have with HTML and CSS. I also love PostCSS. Thought I loved SCSS, but PostCSS so damn good too. Although they aren't very different if we are being fully honest.
+
+[Travel Site _Git a Web Developer Job project_](https://github.com/rickMcGavin/travel-site)
+
 ### Day 67: March 15, 2017
 
 **Thoughts**
