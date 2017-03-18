@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 69: March 17, 2017
+
+**Thoughts**
+
+I plugged along more in this course. I am still learning a great amount as I go. One of the most important topics that Brad continues to stress is BEM. I thought I wrote better CSS, but BEM is making it very clear. I also still love Post CSS, and the way you can nest your CSS without messing up your specificity. 
+
+I also did the Git timeout that instructs on how to properly use Git Branches, which is an area I was admittedly lacking. In fact, I had not been using Git the _proper_ way ever. 
+
+I picked up a few Sketch designs of landing pages, and when I finish this, I'm going to code at least one of them. This will help me solidify the material. 
+
+**Link to work:**
+
+[Travel Site _Git a Web Developer Job project_](https://github.com/rickMcGavin/travel-site) 
+
 ### Day 68: March 16, 2017
 
 **Thoughts**
@@ -12,6 +26,8 @@ He teaches what mobile first means, and then teaches you how to use responsive i
 
 This course is filling in almost every gap I have with HTML and CSS. I also love PostCSS. Thought I loved SCSS, but PostCSS so damn good too. Although they aren't very different if we are being fully honest.
 
+**Link to work:**
+
 [Travel Site _Git a Web Developer Job project_](https://github.com/rickMcGavin/travel-site)
 
 ### Day 67: March 15, 2017
@@ -23,6 +39,8 @@ Consider my mind blown. This course is filling in so many gaps I once had, and i
 Further in the course, I learn about Gulp and automating certain aspects of the development process. He's teaching PostCSS, which is something I'd been interested in before. So far, it seems to have all the features of SCSS, but it's seems module based. For example, if I want to use variables, I need to load that feature. If I want CSS nesting, I need to load that feature. All of the features are being loaded in Gulp. Frankly I'm happy to add PostCSS to my arsenal. 
 
 This course is honestly filling a ton of gaps and answering a lot of questions I have had. I'm better at using Git as well. I should have started this a while ago.
+
+**Link to work:**
 
 [Travel Site _Git a Web Developer Job project_](https://github.com/rickMcGavin/travel-site)
 
