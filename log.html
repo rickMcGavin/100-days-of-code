@@ -1,0 +1,1683 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>body {
+  width: 45em;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 30px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headeranchor-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .headeranchor-link:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .headeranchor,
+.markdown-body h2 .headeranchor,
+.markdown-body h3 .headeranchor,
+.markdown-body h4 .headeranchor,
+.markdown-body h5 .headeranchor,
+.markdown-body h6 .headeranchor {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .headeranchor-link,
+.markdown-body h2:hover .headeranchor-link,
+.markdown-body h3:hover .headeranchor-link,
+.markdown-body h4:hover .headeranchor-link,
+.markdown-body h5:hover .headeranchor-link,
+.markdown-body h6:hover .headeranchor-link {
+  height: 1em;
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .headeranchor-link .headeranchor,
+.markdown-body h2:hover .headeranchor-link .headeranchor,
+.markdown-body h3:hover .headeranchor-link .headeranchor,
+.markdown-body h4:hover .headeranchor-link .headeranchor,
+.markdown-body h5:hover .headeranchor-link .headeranchor,
+.markdown-body h6:hover .headeranchor-link .headeranchor {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* Multimarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\f05c';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><title>log</title></head><body><article class="markdown-body"><h1 id="100-days-of-code-log"><a name="user-content-100-days-of-code-log" href="#100-days-of-code-log" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>100 Days Of Code - Log</h1>
+<h3 id="day-70-march-18-2017"><a name="user-content-day-70-march-18-2017" href="#day-70-march-18-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 70: March 18, 2017</h3>
+<p><strong>Thoughts</strong></p>
+<p>Just moved through the course some more. A lot more CSS styling. I don&rsquo;t like his methods for everything. He uses floats a lot, relative/absolute positioning, which is something I manage to avoid a lot with flexbox. I just think in terms of flexbox because it&rsquo;s what I&rsquo;ve always used.</p>
+<p><strong>Link to work:</strong></p>
+<h3 id="day-69-march-17-2017"><a name="user-content-day-69-march-17-2017" href="#day-69-march-17-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 69: March 17, 2017</h3>
+<p><strong>Thoughts</strong></p>
+<p>I plugged along more in this course. I am still learning a great amount as I go. One of the most important topics that Brad continues to stress is BEM. I thought I wrote better CSS, but BEM is making it very clear. I also still love Post CSS, and the way you can nest your CSS without messing up your specificity. </p>
+<p>I also did the Git timeout that instructs on how to properly use Git Branches, which is an area I was admittedly lacking. In fact, I had not been using Git the <em>proper</em> way ever. </p>
+<p>I picked up a few Sketch designs of landing pages, and when I finish this, I&rsquo;m going to code at least one of them. This will help me solidify the material. </p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/travel-site">Travel Site <em>Git a Web Developer Job project</em></a> </p>
+<h3 id="day-68-march-16-2017"><a name="user-content-day-68-march-16-2017" href="#day-68-march-16-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 68: March 16, 2017</h3>
+<p><strong>Thoughts</strong></p>
+<p>I&rsquo;m seriously blown away at how good this &lsquo;Git a Web Developer Job&rsquo; course is. I remember people raving about it in one of the Facebook groups I&rsquo;m in, which is why I picked it up, but I should have taken it so much sooner!</p>
+<p>I learned how to use BEM css, which has made me want to completely rewrite all my CSS. Set up browserSync with Gulp, which also gave me a link so I can easily test on my phone. </p>
+<p>He teaches what mobile first means, and then teaches you how to use responsive images, which blew my mind. It serves the correct image at the correct size based on what the user is using. </p>
+<p>This course is filling in almost every gap I have with HTML and CSS. I also love PostCSS. Thought I loved SCSS, but PostCSS so damn good too. Although they aren&rsquo;t very different if we are being fully honest.</p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/travel-site">Travel Site <em>Git a Web Developer Job project</em></a></p>
+<h3 id="day-67-march-15-2017"><a name="user-content-day-67-march-15-2017" href="#day-67-march-15-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 67: March 15, 2017</h3>
+<p><strong>Thoughts</strong></p>
+<p>Consider my mind blown. This course is filling in so many gaps I once had, and it has piqued my curiosity for node. One of the first things you do in the &lsquo;Git a Web Developer Job&rsquo; course is write a little node script that creates an HTML file filled with an h1. You also grab an image off the Internet and save it to a location. I had not been exposed to this type of thing before, and I&rsquo;m incredibly eager to learn more.</p>
+<p>Further in the course, I learn about Gulp and automating certain aspects of the development process. He&rsquo;s teaching PostCSS, which is something I&rsquo;d been interested in before. So far, it seems to have all the features of SCSS, but it&rsquo;s seems module based. For example, if I want to use variables, I need to load that feature. If I want CSS nesting, I need to load that feature. All of the features are being loaded in Gulp. Frankly I&rsquo;m happy to add PostCSS to my arsenal. </p>
+<p>This course is honestly filling a ton of gaps and answering a lot of questions I have had. I&rsquo;m better at using Git as well. I should have started this a while ago.</p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/travel-site">Travel Site <em>Git a Web Developer Job project</em></a></p>
+<h3 id="day-66-march-14-2017"><a name="user-content-day-66-march-14-2017" href="#day-66-march-14-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 66: March 14, 2017</h3>
+<p><strong>Thoughts</strong></p>
+<p>Writing this the day after is a little less than optimal, but I fixed some accessibility issues with my projects. I started the &lsquo;Git a Web Developer Job&rsquo; course that I&rsquo;ve had for a while, which teaches an entire work flow for developers. It&rsquo;s pretty dope. I should have taken it a while ago. </p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/travel-site">Travel Site <em>Git a Web Developer Job project</em></a></p>
+<h3 id="day-65-march-13-2017"><a name="user-content-day-65-march-13-2017" href="#day-65-march-13-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 65: March 13, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> Optimized images for portfolio page</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> Ran HTML validation tool for errors</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>I&rsquo;ve been thinking more lately about cleaning up my portfolio as best as I can, especially in regards to make sure it is all valid HTML and passes page speed tests. So I did exactly that today. Talk about some craziness. There were definitely some thing you can do that I did not know about. E.g. inlining your CSS above the fold? What the ??? That will be more fun things to dig in to another time.</p>
+<h3 id="day-64-march-10-2017"><a name="user-content-day-64-march-10-2017" href="#day-64-march-10-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 64: March 10, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> Took 2.5 hour code test for job</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>It was cool to take my first coding test for a job. It was disappointing that there was an entire question in SQL that I was told wouldn&rsquo;t be there that I stood no chance at solving. I feel good about the others though.</p>
+<h3 id="day-63-march-8-2017"><a name="user-content-day-63-march-8-2017" href="#day-63-march-8-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 63: March 8, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> Solved 4 code challenges on Codility in interview preperation</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>In preparation for my interview tomorrow, I mostly worked through code challenges. These things can fry your brain a bit, but I&rsquo;m glad that I worked on them.</p>
+<h3 id="day-62-march-7-2017"><a name="user-content-day-62-march-7-2017" href="#day-62-march-7-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 62: March 7, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> Finish freeCodeCamp Leaderboard</li>
+</ul>
+<p><strong>Thoughts</strong><br />
+My plan to make the leaderboard show the two different lists worked. It took some playing around with it for it to work, but I eventually did get it. I made the styles look as &lsquo;material&rsquo; as possible, and now I&rsquo;m looking forward to moving on to the next challenge.</p>
+<p><strong>Link to work</strong></p>
+<p><a href="https://rickmcgavin.github.io/projects/camper_leaderboard/index.html">Camper Leaderboard</a></p>
+<h3 id="day-61-march-6-2017"><a name="user-content-day-61-march-6-2017" href="#day-61-march-6-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 61: March 6, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> Pull JSON files in to React</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> Write JSX populating the table with the JSON data</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>I&rsquo;m starting to really get a grasp on React. Starting to love it. I understand its structure. It&rsquo;s absolutely working out for me now. I was able to pull the data in from the JSON files successfully. I coded up the table to display either sets of data. I just need to figure out a method for switching them. </p>
+<p><strong>Link to work</strong></p>
+<p><a href="https://github.com/rickMcGavin/camper_leaderboard">Camper Leaderboard</a></p>
+<h3 id="day-60-march-5-2017"><a name="user-content-day-60-march-5-2017" href="#day-60-march-5-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 60: March 5, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> Start Camper Leaderboard in React</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>I had some odd struggles getting the basic setup going with Create-React-App, but I got it figured out, and I&rsquo;m well on my way. I have the basic set up ready with a very spartan table layout. Once I get the data from the two links, create the methods to sort them, and then style them, then that&rsquo;s all there really is to this challenge. It will probably take longer than I expect, but I hope to have it complete fairly quickly.</p>
+<p><strong>Link to work</strong></p>
+<p><a href="https://github.com/rickMcGavin/camper_leaderboard">Camper Leaderboard</a></p>
+<h3 id="day-59-march-4-2017"><a name="user-content-day-59-march-4-2017" href="#day-59-march-4-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 59: March 4, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> Finish React for Beginners </li>
+</ul>
+<p><strong>Thoughts</strong><br />
+I finished React for Beginners. I now love the course. As much as I struggled and didn&rsquo;t understand at first, I think it&rsquo;s a great course now. </p>
+<p>I maintain that it is probably not a great first course on React. The course by <a href="https://www.youtube.com/user/thenewboston">TheNewBoston</a> is a great first course. It gets you writing React, and a little comfortable with some of the concepts before moving in on tooling and all that other stuff that Wes covers.</p>
+<p>Wes covers all the new stuff you should be doing too like using ES6 classes, and making your code modular that Bucky just doesn&rsquo;t cover in his intro series. </p>
+<p>I don&rsquo;t really feel the need to take Stephen Girder&rsquo;s course that I have on udemy, but I may at some point. It&rsquo;s significantly longer than Wes&rsquo;s, so I have to assume there are new topics covered. Maybe I can just cherry pick topics? </p>
+<p>Anyways tomorrow, I&rsquo;ll start the freeCodeCamp leader board. Doesn&rsquo;t look too challenging.</p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickmcgavin/catch-of-the-day">Catch of the Day</a></p>
+<h3 id="day-58-march-3-2017"><a name="user-content-day-58-march-3-2017" href="#day-58-march-3-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 58: March 3, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 150 minutes React for Beginners</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>Moved on in Wes&rsquo;s course where you display state with JSX, you update Order state, and display the order with JSX. I&rsquo;m actually nearing the end of the course, and I&rsquo;m finally feeling ready to take on these freeCodeCamp projects.</p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickmcgavin/catch-of-the-day">Catch of the Day</a></p>
+<h3 id="day-57-march-2-2017"><a name="user-content-day-57-march-2-2017" href="#day-57-march-2-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 57: March 2, 2017</h3>
+<p><strong>Thoughts</strong></p>
+<p>Fairly light day. Need some extra rest, and just wanted to catch up to date with Wes Bos&rsquo;s React for Beginners course again. It makes complete sense this time.</p>
+<p>I really think a few smaller projects like the one I did from Bucky on his YouTube channel: <a href="https://www.youtube.com/user/thenewboston">TheNewBoston</a> helped a ton. Now, I&rsquo;m doing Wes&rsquo;s course, and I&rsquo;m understanding the way he&rsquo;s breaking components down better. I&rsquo;m understanding the use of ES6 classes to create components better. It&rsquo;s good. </p>
+<p>I have to admit that it is possible, I simply blew through his course a little too quickly in my eagerness to learn React. Sometimes, it is better to slow down, and really learn the core concepts well and deeply.</p>
+<p>I can&rsquo;t wait to have some more fun with React now. Also oddly enough, no major regrets on the Angular 2 course that I took briefly. The high-level concepts were a help. </p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickmcgavin/catch-of-the-day">Catch of the Day</a></p>
+<h3 id="day-56-march-1-2017"><a name="user-content-day-56-march-1-2017" href="#day-56-march-1-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 56: March 1, 2017</h3>
+<p><strong>Thoughts</strong></p>
+<p>I fixed up a bug in my markdown previewer from yesterday. Spending some time reviewing Wes Bos&rsquo;s React course again. Going slower this time. I think I went too fast before, and just didn&rsquo;t get it because I didn&rsquo;t try to learn well.</p>
+<h3 id="day-55-february-28-2017"><a name="user-content-day-55-february-28-2017" href="#day-55-february-28-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 55: February 28, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> Finish markdown previewer</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>It&rsquo;s not exactly what I had in mind, but I basically wanted the ability to see the output without the editor in the way. So I made a toggle button that&hellip; hides the editor. </p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://rickmcgavin.github.io/projects/markdown_previewer/index.html">Markdown Previewer</a></p>
+<h3 id="day-54-february-27-2017"><a name="user-content-day-54-february-27-2017" href="#day-54-february-27-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 54: February 27, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> Markdown Previewer in React</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>Finally got that Markdown Previewer up and running. I want to do a few things to make it just a little different from what I&rsquo;ve seen others do before I put it out there though. Also need to figure out how to deploy to github pages exactly. 🤔 </p>
+<p>I also need to figure out how to make it work on codepen. Seems like it was way easier to make locally.</p>
+<p>Yea, I use emoticons in this log a lot now. It&rsquo;s fun. </p>
+<h3 id="day-53-february-26-2017"><a name="user-content-day-53-february-26-2017" href="#day-53-february-26-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 53: February 26, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 50 minutes learning some more React</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>It was definitely more than 50 minutes. I just didn&rsquo;t keep very good track after the first 50. </p>
+<p>I feel like I should really be able to make this damn Markdown Previewer by now, so I&rsquo;ve spent some time back on React. I think I&rsquo;ve been overwhelming myself with stuff before applying what I&rsquo;ve learned. </p>
+<p>I went back to videos from <a href="https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBuKtLgPR_zWYnrwv-JllpA">Bucky Roberts&rsquo;s YouTube Channel</a>. I remember watching his React videos when I was just doing the intermediate projects, and thinking to myself, &ldquo;This doesn&rsquo;t seem hard at all.&rdquo; The way he breaks it down in its most simplistic fashion just makes perfect sense to me. </p>
+<p>Wes&rsquo;s videos aren&rsquo;t bad, but he also teaches you to break your components up in to separate files, how to install create-react-app, how to get your webpack server going. For a total beginner with React, it&rsquo;s probably best to just show them how to write some React components and play around with them, even if it isn&rsquo;t the most efficient way, and then get back to them later on the efficiencies and separate files for components, etc.</p>
+<p>Basically, I&rsquo;d like to be able to use React for all the fun simple thing I can already do with JavaScript: manipulating the DOM, fetching JSONs, etc. Nope, it&rsquo;s far more complex with React. </p>
+<h3 id="day-52-february-25-2017"><a name="user-content-day-52-february-25-2017" href="#day-52-february-25-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 52: February 25, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 250 minutes Angular 2 </li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>I really don&rsquo;t have many thoughts. I worked through the tutorails, and I&rsquo;m a little disappointed with the udemy course. It&rsquo;s not fully updated from the beta, so mistakes were made that wasted a lot of time. I nearly requested a refund. 😮</p>
+<h3 id="day-51-february-24-2017"><a name="user-content-day-51-february-24-2017" href="#day-51-february-24-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 51: February 24, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 100 minutes project work (North Harbor Investigations)</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>I didn&rsquo;t fully plan to start this project tonight, but I know I wanted to get it started already. It&rsquo;s a private investigator site for a friend of mine who is&hellip; you guessed it, a private investigator. I like the way the site is coming along. </p>
+<p>I want to have smooth scrolling in this (ideally without jQuery). I&rsquo;ve upped my SCSS game this time around by fully utilizing partials and mixins. I finally understand how to use them! 😂 They weren&rsquo;t that hard. It just took one good example for it to click with me. I was definitely not using SCSS to its full potential in the past.</p>
+<p>I will likely have a nav bar fixed to the top after you scroll down. That said, I&rsquo;m contemplating having a menu that slides out from the right for all versions (desktop and mobile).</p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/North-Harbor">North Harbor Investigations</a></p>
+<h3 id="day-50-february-23-2017"><a name="user-content-day-50-february-23-2017" href="#day-50-february-23-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 50: February 23, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 50 minutes Angular 2</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>I spent a lot of time today playing the job hunting game, so I minimalized my time learning. I need to find a better approach to this job search thing though. Have a few tricks up my sleeve.</p>
+<p>I learned more Angular 2. Finished section on components, templates &amp; databinding. Starting to make a lot more sense. Still eager to be able to use this easily.</p>
+<p>I want to get in to some sort of project for the weekend as well. Something different than my normal.</p>
+<h3 id="day-49-february-22-2017"><a name="user-content-day-49-february-22-2017" href="#day-49-february-22-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 49: February 22, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 25 minutes reading Sublime Text book by Wes Bos</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 25 minutes JS30: Day 14</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 100 minutes Angular 2</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>I finished the Sublime Text book finally after sitting on the last few chapters while focusing on my portfolio and resume. I wasn&rsquo;t missing much. Just a few emmet tips. The section on emmet was definitely what applied to me most, and was most interesting.</p>
+<p>More Angular 2 leanring. I understand the concepts and everything. I&rsquo;m very eager to get to a point where I can build something with Angular or React the way I can just sit down and build something in HTML/CSS/JS. </p>
+<h3 id="day-48-february-21-2017"><a name="user-content-day-48-february-21-2017" href="#day-48-february-21-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 48: February 21, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 100 minutes Angular 2 learning</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> JavaScript 30: Day 13</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>Day 13 of JS30 is actually really cool. I always wanted to know how to do slide on scroll AND make the animation fire more than once. </p>
+<p>Due to what seems to be a massive amount of opportunity in my area, I switched over to Angular. Seriously, I see tons of ads requesting Angular experience, and I basically never see requests for React. I picked up a course on udemy for Angular 2, and I just have to say that it makes so much more sense to me so far compared to React. Oddly enough, it&rsquo;s making a lot of the React material make more as well.</p>
+<h3 id="day-47-february-20-2017"><a name="user-content-day-47-february-20-2017" href="#day-47-february-20-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 47: February 20, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 100 minutes React practice</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> JavaScript 30: Day 12.</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>Right now I&rsquo;m focused solely on React. I do love how fast React can be. I hate how ugly it is. I just can&rsquo;t deny that. It&rsquo;s hideous to look at. I don&rsquo;t like how it has bizarre naming conventions also where you sometimes Capitalize and sometimes you don&rsquo;t. Plain ol&rsquo; JS was a lot easier to grasp. Ok, enough griping.</p>
+<p>I seriously am stuck on video 13 of this course. It doesn&rsquo;t make a ton of sense to me why it&rsquo;s not working. Everything seems to check out. When I copy and paste the stepped solutions code, it still fails. What the hell???</p>
+<h3 id="day-46-february-19-2017"><a name="user-content-day-46-february-19-2017" href="#day-46-february-19-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 46: February 19, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 50 minutes on JavaScript 30 </li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 200 minutes React for Beginners</li>
+</ul>
+<p><strong>Thoughts</strong> </p>
+<p>I did about 50 minutes of JavaScript 30, working on the HTML5 video player challenge. It was good. I The biggest thing I really take away from Wes&rsquo;s videos is the way he shows you how to grab certain pieces of data out of DOM Object trees. </p>
+<p>I&rsquo;ve been doing Wes&rsquo;s React course, but I don&rsquo;t think it&rsquo;s what I need considering where I&rdquo;m at. It&rsquo;s funny that Wes is such a major proponent of building tons of little things, but his React course is one big app. Granted, it&rsquo;s composed of many small components. I just feel like I&rsquo;m really missing some things. I need to build shit. Lots of it.</p>
+<h3 id="day-45-february-18-2017"><a name="user-content-day-45-february-18-2017" href="#day-45-february-18-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 45: February 18, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> Finish Portfolio</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> Learn more react</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>Finished my portfolio today. I put in the mobile navigation. It&rsquo;s done&hellip; for now. I want to move on to all the fun things I can now do with React. </p>
+<p>I learned a lot while making my portfolio, and now my portfolio is probably my favorite project that I&rsquo;ve made. I&rsquo;m still not in love with the cards. Love the about and contact sections though, especially on mobile.</p>
+<p>I got to spend some time on the React tutorial with Wes Bos. I&rsquo;m not 100% sure how prepared to do this I will be, but it really shouldn&rsquo;t be too different.</p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/portfolio">Portfolio</a>;</p>
+<h3 id="day-44-february-17-2017"><a name="user-content-day-44-february-17-2017" href="#day-44-february-17-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 44: February 17, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> Finish portfolio</li>
+<li class="task-list-item"><input type="checkbox" disabled> Learn more React</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>I&rsquo;ll try to update regarding yesterday since I forgot to write my log. I didn&rsquo;t finish all of my portfolio nor did I get to learn React at all. </p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/portfolio">Portfolio</a>;</p>
+<h3 id="day-43-february-16-2017"><a name="user-content-day-43-february-16-2017" href="#day-43-february-16-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 43: February 16, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> First 7 videos of ReactJS for beginners</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> Projects and About section complete for page.</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>I watched the first 7 videos of React.js. It was good. Much of it I did know at this point as I&rsquo;ve done a little bit of work in React. So far, I&rsquo;ve found React fairly intuitive, and it is largely the way I want to build sites.</p>
+<p>My projects section and about section are complete with my portfolio. I just need to make my contact section, and then make the whole thing responsive.</p>
+<p>I do have to take a moment to acknowledge something hilarious that happened while building my project cards. I was about to code the third card in HTML when I realized&hellip; I should just write some javascript to code this all out on page load every time. Sure enough that was a much better idea.</p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/portfolio">Portfolio</a>;</p>
+<h3 id="day-42-february-15-2017"><a name="user-content-day-42-february-15-2017" href="#day-42-february-15-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 42: February 15, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> Updated Resume</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> Updated Portfolio</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>I admittedly made the mistake of not updating my resume or portfolio regularly. Then again, you progress so quickly early on that it can be easy to let it get behind. </p>
+<p>I did a lot of work on my resume to focus on transferable skills, and display as much of my ability to code as possible.</p>
+<p>I have built the card that will hold my projects for my portfolio, which means my projects section is basically complete. I just need to template it out. I could probably even write some javascript code to have it built dynamically from an object to be honest.</p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/portfolio">Portfolio</a>;</p>
+<h3 id="day-41-february-14-2017"><a name="user-content-day-41-february-14-2017" href="#day-41-february-14-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 41: February 14, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 225 minutes on freeCodeCamp wiki viewer upgrade.</li>
+</ul>
+<p><strong>Thoughts</strong><br />
+I am &lsquo;mostly&rsquo; finished with my rebuild of the wikipedia viewer. It needs a polyfill to properly work on mobile and Safari. It&rsquo;s been actually a pretty great learning experience. </p>
+<p><strong>Link to work on codepen:</strong> </p>
+<p><a href="http://codepen.io/rickMcGavin/full/vgbmvJ/">Wiki Viewer</a></p>
+<p><strong>Link to work on github:</strong></p>
+<p><a href="https://github.com/rickMcGavin/wikipedia_viewer">Wiki Viewer</a></p>
+<h3 id="day-40-february-13-2017"><a name="user-content-day-40-february-13-2017" href="#day-40-february-13-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 40: February 13, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> Day 8 <a href="https://javascript30.com/">JavaScript30</a> by Wes Bos </li>
+<li class="task-list-item"><input type="checkbox" disabled checked> Day 9 <a href="https://javascript30.com/">JavaScript30</a> by Wes Bos </li>
+<li class="task-list-item"><input type="checkbox" disabled checked> Day 10 <a href="https://javascript30.com/">JavaScript30</a> by Wes Bos </li>
+<li class="task-list-item"><input type="checkbox" disabled checked> Wikipedia viewer upgrade</li>
+</ul>
+<p><strong>Thoughts</strong><br />
+I completed 3 days of the JS30 challenge today. The fun with HTML5 canvas, 14 must know dev tool tricks, and hold shift to check multiple checkboxes. I did decently well with the canvas, and the dev tool tricks I felt was actually kind of disappoints. It wasn&rsquo;t what I was expecting. I gave the challenge where you hold shift to check multiple check boxes a fair shot, but I had to rely on the video. I really liked the concept I learned with setting flags. Who knows how long it would have taken me to stumble on that myself.</p>
+<p>Aside from that, I&rsquo;ve worked on my upgraded wikipedia viewer. I&rsquo;m rather happy with it so far. I have a design I&rsquo;m happy with. I was able to fetch the json file after much struggling. I could have saved myself a ton of trouble by watching Wes&rsquo;s video again, even just the small piece discussing fetch. I also apparently made the mistake of doing all this while extremely tired. I was making tons of silly mistakes. Lesson learned..... I hope.</p>
+<h3 id="day-39-february-12-2017"><a name="user-content-day-39-february-12-2017" href="#day-39-february-12-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 39: February 12, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 25 minutes <a href="https://sublimetextbook.com/">Sublime Text Book</a> by Wes Bos</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 75 minutes <a href="https://www.udemy.com/understand-javascript/">Javascript Understanding The Weird Parts</a></li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 50 minutes <a href="https://javascript30.com/">JavaScript30</a> by Wes Bos</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 50 minutes making corrections on wikipedia viewer</li>
+</ul>
+<p><strong>Thoughts</strong><br />
+The Sublime text book is starting to somewhat ramp down in its effectiveness for me personally. The later section of the book is focused on some areas that either don&rsquo;t really apply to me right now or I am simply not that interested in. </p>
+<p>As I&rsquo;m working through <a href="https://www.udemy.com/understand-javascript/">Javascript Understanding The Weird Parts</a>, the section where you build your own small framework/library is certainly interesting and tricky. I will have to keep practicing it for it to really click I think. I really like the way he created function prototypes in the video. It&rsquo;s different than the way I had been.</p>
+<p>I completed Day 6 of JS30 with the type ahead AJAX features. What a great video. It did only take about 25 minutes, but I learned a lot of great stuff that I&rsquo;m going to use. It actually all applies to the rebuild of the wikipedia viewer that I have planned. </p>
+<p>I also completed day 7 of JS30. I&rsquo;m pretty good with algorithm challenges, so this one was actually pretty easy for me. It&rsquo;s also not very long in general.</p>
+<p>I spent my 50 minutes working on my new revamped wikipedia viewer, but I&rsquo;m not happy with the style or color choices. I am going to look at doing it in a more material design type of way.</p>
+<h3 id="day-38-february-11-2017"><a name="user-content-day-38-february-11-2017" href="#day-38-february-11-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 38: February 11, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 25 minutes <a href="https://sublimetextbook.com/">Sublime Text Book</a> by Wes Bos</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 50 minutes <a href="https://www.udemy.com/understand-javascript/">Javascript Understanding The Weird Parts</a></li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 50 minutes <a href="https://javascript30.com/">JavaScript30</a> by Wes Bos</li>
+<li class="task-list-item"><input type="checkbox" disabled> 50 minutes making corrections on wikipedia viewer</li>
+</ul>
+<p>I probably shouldn&rsquo;t be, but I&rsquo;m astonished at how great the content of Wes Bos&rsquo;s Sublime Text Book is. I hit the section where Wes claims readers will say &lsquo;I didn&rsquo;t know Sublime did that!&rsquo; Sure enough, I started saying exactly that. I&rsquo;ve been craving to know how to move around in my text editor better with the keyboard. Section 12 on Moving, Selecting, Expanding, and Wrapping provided exactly that effect. </p>
+<p>It was also a smart choice to make Anki cards out of all these tips and key board shortcuts.</p>
+<p>I did Wes Bos&rsquo;s 5th day of JS30. I love the way the flex image gallery looks, and definitely learned how to do some cool stuff with JS while also working with HTML/CSS. That&rsquo;s what I like most about his course. There are a lot of cool things to do out there in web development, and too many JavaScript courses abstract away the specifics, so you can &lsquo;understand&rsquo; better how certain concepts apply. However, applying the concepts is tricky as is, and rarely covered. </p>
+<h3 id="day-37-february-10-2017"><a name="user-content-day-37-february-10-2017" href="#day-37-february-10-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 37: February 10, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 50 minutes working on new plan and design of my portfolio</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 25 minutes <a href="https://sublimetextbook.com/">Sublime Text Book</a> by Wes Bos</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 50 minutes <a href="https://javascript30.com/">JavaScript30</a> by Wes Bos</li>
+</ul>
+<p>I continue to learn some very cool things about Sublime Text. Thing I have in fact wanted to know! There were some topics I didn&rsquo;t have much interest in: theme creation (no interest at this time at least) and snippet creation (again I&rsquo;m really more at a point where I&rsquo;d rather rely on someone else&rsquo;s themes).</p>
+<p>The part on how to add multiple carets with your mouse I knew, but I had been dying to know if there was a keyboard shortcut possible for this same behavior. Of course there is! I also now realize how you can add edit multiple lines and catch different words (modifying multiple lines at once).</p>
+<p>Also learning how to select and place carets on multiple words (cmd + d) and also how to sometimes skip words was huge! </p>
+<p>I just did Wes&rsquo;s array cardio day 1. Started easy. Got harder! I love these little algorithm challenges though. It was nice to see him include it. I always want to improve at these.</p>
+<h3 id="day-36-february-9-2017"><a name="user-content-day-36-february-9-2017" href="#day-36-february-9-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 36: February 9, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 75 minutes <a href="https://www.freecodecamp.com/challenges/build-a-simon-game">freeCode Camp Simon Game</a></li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 25 minutes <a href="https://sublimetextbook.com/">Sublime Text Book</a> by Wes Bos</li>
+<li class="task-list-item"><input type="checkbox" disabled> 25 minutes <a href="https://javascript30.com/">JavaScript30</a> by Wes Bos</li>
+</ul>
+<p><strong>Thoughts</strong><br />
+Finishing the Simon game felt pretty amazing. Can&rsquo;t lie about that. I&rsquo;m happy to have the challenge behind me, and now I&rsquo;m on to the data visualization portion of freeCodeCamp.</p>
+<p>Also still learning a great deal due to Wes Bos&rsquo;s Sublime Text Book. I&rsquo;m making Anki cards on what I learn that I find relevant, which has been quite helpful with remembering short cuts.</p>
+<p><strong>Links to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/simon">FreeCodeCamp: Simon Game on gitHub</a></p>
+<p><a href="http://codepen.io/rickMcGavin/full/qRoVXr/">FreeCodeCamp: Simon Game on CodePen</a></p>
+<h3 id="day-35-february-8-2017"><a name="user-content-day-35-february-8-2017" href="#day-35-february-8-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 35: February 8, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 25 minutes <a href="https://www.udemy.com/understand-javascript/">Javascript Understanding The Weird Parts</a></li>
+<li class="task-list-item"><input type="checkbox" disabled> 25 minutes <a href="https://sublimetextbook.com/">Sublime Text Book</a> by Wes Bos</li>
+<li class="task-list-item"><input type="checkbox" disabled> 25 minutes <a href="https://javascript30.com/">JavaScript30</a> by Wes Bos</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 250 minutes <a href="https://www.freecodecamp.com/challenges/build-a-simon-game">freeCode Camp Simon Game</a></li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>While disappointing that I did not completely finish the Simon game tonight, It&rsquo;s basically complete, and I&rsquo;m past all the major JavaScript hang ups. I just have some final tweaks I want to add: <br />
+- [ ] Make a game won SFX<br />
+- [ ] Rebuild the HTML/CSS with some flexbox<br />
+- [ ] create a game won modal<br />
+- [ ] make it responsive with some @media queries</p>
+<p>Very excited to wrap it all up tomorrow, and claim that Front End Certificate.</p>
+<p><strong>Links to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/simon">FreeCodeCamp: Simon Game</a></p>
+<h3 id="day-34-february-7-2017"><a name="user-content-day-34-february-7-2017" href="#day-34-february-7-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 34: February 7, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 50 minutes <a href="https://www.udemy.com/understand-javascript/">Javascript Understanding The Weird Parts</a></li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 25 minutes <a href="https://sublimetextbook.com/">Sublime Text Book</a> by Wes Bos</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 25 minutes <a href="https://javascript30.com/">JavaScript30</a> by Wes Bos</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 75 minutes <a href="https://www.freecodecamp.com/challenges/build-a-simon-game">freeCode Camp Simon Game</a></li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>I worked through at least 50 minutes of JavaScript: Understanding the Weird Parts, finishing the section on Objects and Functions. I was already rather familiar with IIFEs and Closures. I had used function factories in the past without really knowing their name or understanding what was going on with them. The explanation of call(), apply(), and bind() was also quite helpful. What really rocked my world was the way he showed and explained call back functions. While I believe I&rsquo;ve used callback functions in an organic manner in the past. They had never been consciously brought to my attention. I am currently 63% complete, and am looking forward to wrapping the course up definitely this week at this pace.</p>
+<p>I finished day 3 of JS30 now as well. I really like Wes Bos&rsquo;s course here because it&rsquo;s all so practical, and often centers around manipulating/utilizing the DOM. Why do so many books/courses offer the most theoretical applications of their material? </p>
+<p>Still stuck on this sound issue. Despite working on it for well over an hour, I made no progress today with it unfortunately. The best working version I have of it so far is the one that consistently goes nuts on round 12.</p>
+<p><strong>Links to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/simon">FreeCodeCamp: Simon Game</a></p>
+<h3 id="day-33-february-6-2017"><a name="user-content-day-33-february-6-2017" href="#day-33-february-6-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 33: February 6, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 75 minutes <a href="https://www.udemy.com/understand-javascript/">Javascript Understanding The Weird Parts</a></li>
+<li class="task-list-item"><input type="checkbox" disabled checked> <a href="https://javascript30.com/">JavaScript30</a> by Wes Bos</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> <a href="https://sublimetextbook.com/">Sublime Text Book</a> by Wes Bos</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> freeCodeCamp Simon Game</li>
+</ul>
+<p><strong>Thoughts</strong><br />
+I went through a lot of JS: Understanding the Weird Parts today. I&rsquo;m about 52% complete. I&rsquo;ve been watching it on 2x speed, and I cannot even fathom how someone can watch it at 1x. It sounds completely normal at 2x, and I cannot say that for every course I take. I learned about the subtle difference between JSON and Object Literal Notation, including what the method stringify does. The course provides a good explanation of first-class functions as well as good explanations of function statements and function expressions, which I did not properly understand before.</p>
+<p>I watched the first video, and read the first few chapters of Wes Bos&rsquo;s Sublime Text Book. It&rsquo;s already proven incredibly useful. I love the command palette and goto anything. These are possibly all Atom.io features, but Sublime Text does seem lightning fast. It is also what I know Red Ventures developers use. </p>
+<p>On a side note, I am tempted to make a similar article to John Washam&rsquo;s <a href="https://googleyasheck.com/why-i-studied-full-time-for-8-months-for-a-google-interview/">Why I Studied Full-Time for 8 Months for a Google Interview</a> only for working at Red Ventures.</p>
+<p>I completed day 2 of JS30 as well. This little trick he does where he builds a clock with JS and CSS manipulation definitely has me thinking how this may be accomplished to help my Pomodoro timer.</p>
+<p>With my Simon game, I was able to build a large part of the necessary functionality I was looking for: check for a winner, play sound when move is wrong, strict mode works. However, I have one hang up: I cannot get the audio to play correctly. When the game gets to about round 12, it starts to slow down immensely. I tried playing the audio strictly through the JS without hitting the DOM, and just ran in to different issues where the computer turns became increasingly high pitched and muffled.</p>
+<p>I saw a stack overflow thread that tells you just to change the source of the audio and load it. I think that may be the trick. I&rsquo;ll have to try it tomorrow though.</p>
+<p><strong>Links to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/simon">FreeCodeCamp: Simon Game</a></p>
+<h3 id="day-32-february-5-2017"><a name="user-content-day-32-february-5-2017" href="#day-32-february-5-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 32: February 5, 2017</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked> 25 minutes <a href="https://www.udemy.com/understand-javascript/">Javascript Understanding The Weird Parts</a></li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 100 minutes Javascript30 by Wes Bos</li>
+<li class="task-list-item"><input type="checkbox" disabled checked> 50 minutes FCC Simon Game Challenge</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>I am absolutely starting to wish I had started <a href="https://www.udemy.com/understand-javascript/">Javascript Understanding The Weird Parts</a> sooner. I am only on session 3, and it&rsquo;s just great information delivered in a very understandable way. Today was largely about comparison operators, and what operators take precedence over others, and in which direction they process (left-to-right) or (right-to-left). I definitely reviewed some things I knew regarding the equality operator and strict equality operator, but the instructor does a great job really digging in to how things work. I also didn&rsquo;t realize you could use comparison operators to set variables. The example given was:</p>
+<p>name = name || &ldquo;<your name here>&ldquo;;</p>
+<p>I feel somewhat slow for not knowing this yet, but then again, I&rsquo;m just now taking the course.</p>
+<p>I did the Javascript30 day 1 challenge where you build a drum kit. I rather enjoyed this and learned a lot while I was at it. I was able to immediately apply it to my Simon Game by utilizing the same method for playing audio files.</p>
+<p>I fixed the issue with my event listeners by just taking them out of a function. I have to get better at recognizing when I&rsquo;m really frustrated with an issue, and changing gears. It might be best to work on a tutorial type of project or a video course to get my head right again. Also, the solution I&rsquo;m looking for may pop up.</p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/simon">FreeCodeCamp: Simon Game</a></p>
+<h3 id="day-31-february-4-2017"><a name="user-content-day-31-february-4-2017" href="#day-31-february-4-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 31: February 4, 2017</h3>
+<ul>
+<li>200 minutes FCC Simon Game Projects</li>
+</ul>
+<p><strong>Thoughts</strong></p>
+<p>After my first 4 pomodoros (200 minutes), I can say I&rsquo;m quite frustrated. I easily solved the issue I&rsquo;m having right now in jQuery. However, I&rsquo;m quite dead set in building this with Vanilla JS. I am really struggling though.</p>
+<p>I&rsquo;ve created a function that will be called numerous times, and each time it&rsquo;s called, I&rsquo;m setting another event listener, which is inflating my player&rsquo;s array of moves. In jQuery, I did have a similar issue with the tic-tac-toe game, which I easily solved by just adding .unbind(&ldquo;click&rdquo;) before using jQuery&rsquo;s .click() method.</p>
+<p>This does not seem nearly as easy in JavaScript. I tried using removeEventListener(), but that requires you to name the function. When I name the function, and move the code inside the named function, and run a named function instead of an anonymous function, I do not get the same results.</p>
+<p>After much difficulty with it tonight, I just am not understanding. I guess I will have to battle it another day.</p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/simon">FreeCodeCamp: Simon Game</a></p>
+<h3 id="day-30-february-3-2017"><a name="user-content-day-30-february-3-2017" href="#day-30-february-3-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 30: February 3, 2017</h3>
+<ul>
+<li>25 minutes <a href="https://www.udemy.com/understand-javascript/">Javascript Understanding The Weird Parts</a></li>
+<li>200 minutes FCC Simon Game Projects</li>
+</ul>
+<p><strong>Thoughts</strong><br />
+I&rsquo;m 25% of the way through JavaScript understanding the weird parts. It has been a welcome refresher that deepened my understanding of the scope chain and how operators work so far.</p>
+<p>I figured out the fairly challenging problem I was having with the Simon game, and the elements all lighting up at once. Once, I figured out how to solve that with a recursive function (very cool), I realized I was having trouble with the player&rsquo;s turn. When the player clicked the buttons, nothing happened! I was using getElementById(), and changing it to querySelector seemed to solve all my problems. I can&rsquo;t imagine why though, and I can&rsquo;t find anywhere that says this is a known issue.</p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/simon">FreeCodeCamp: Simon Game</a></p>
+<h3 id="day-29-february-2-2017"><a name="user-content-day-29-february-2-2017" href="#day-29-february-2-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 29: February 2, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 1 hour <a href="https://medium.freecodecamp.com/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af#.w26mj27k9">Understanding Flexbox: Everything You Need to know</a> by Ohans Emmanuel<br />
+- 50 minutes <a href="https://www.udemy.com/understand-javascript/">Javascript Understanding The Weird Parts</a><br />
+- 50 minutes FCC Simon Game Projects</p>
+<p>Still have to give some credit to the flexbox article above. It&rsquo;s been immensely helpful in helping me better understand flexbox. I practiced by making some nav bars. I love how clean and easy it was to build a nav with flexbox.</p>
+<p>After being fairly confused by Kyle Simpson&rsquo;s <a href="https://github.com/getify/You-Dont-Know-JS">YDKJS</a> book 3, I decided to load up Understanding the Weird Parts. It&rsquo;s been a very helpful video course so far. I think I definitely should have started with this then moved to YDKJS, but either way, I&rsquo;m learning JavaScript better.</p>
+<p>The Simon game was smooth sailing until now. I&rsquo;m trying to make the the computer move play the button presses, and it&rsquo;s just not working correctly. I don&rsquo;t know why, but setInterval just gets progressively faster every time it&rsquo;s ran. I will figure it out though.</p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/simon">FreeCodeCamp: Simon Game</a></p>
+<h3 id="day-28-february-1-2017"><a name="user-content-day-28-february-1-2017" href="#day-28-february-1-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 28: February 1, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 1 hour <a href="https://medium.freecodecamp.com/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af#.w26mj27k9">Understanding Flexbox: Everything You Need to know</a> by Ohans Emmanuel<br />
+- 150 minutes FCC Simon Game Projects</p>
+<p><strong>Thoughts</strong></p>
+<p>The flexbox article above on medium is fantastic for making quick sense of flex box. I had a pretty strong understanding before. Although I admittedly mostly used it for vertical alignment and it&rsquo;s flex-wrap ability. I have not completely worked my way through the article (it&rsquo;s very comprehensive), but I have a much stronger sense I can build most of my HTML/CSS layouts utilizing the CSS Flexbox model.</p>
+<p>Finished the HTML/CSS portion of the project so far. I added the the basic features of turning the game on/off. I also adjusted the box shadow for the start button when you click the button.</p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/simon">FreeCodeCamp: Simon Game</a></p>
+<h3 id="day-27-january-31-2017"><a name="user-content-day-27-january-31-2017" href="#day-27-january-31-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 27: January 31, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 200 minutes FCC Simon Game Project</p>
+<p><strong>Thoughts</strong></p>
+<p>I have built the bulk of the user interface. I only need to complete a start button, strict button, &amp; on/off button. I also will need labels for all of them. Then I can move on to the functionality in JS. So far, I am definitely loving this project as much as I thought I would. I can&rsquo;t wait to dig in to the javascript.</p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://github.com/rickMcGavin/simon">FreeCodeCamp: Simon Game</a></p>
+<h3 id="day-26-january-30-2017"><a name="user-content-day-26-january-30-2017" href="#day-26-january-30-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 26: January 30, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 200 minutes FCC Tic-Tac-Toe Project</p>
+<p><strong>Thoughts</strong></p>
+<p>I finally completed the tic-tac-toe challenge. It&rsquo;s funny how taking some time away can make it a lot easier to just sit down and figure out why it wasn&rsquo;t working before. I added some @media queries to make it responsive and playable on small screens. The JS is definitely not optimal, but it works.</p>
+<p><strong>Link to work:</strong></p>
+<p><a href="https://codepen.io/rickMcGavin/full/JEOaVd/">FreeCodeCamp Tic-Tac-Toe: codepen</a></p>
+<p><a href="https://github.com/rickMcGavin/tic-tac-toe">FreeCodeCamp Tic-Tac-Toe: github</a></p>
+<h3 id="day-25-january-28-2017"><a name="user-content-day-25-january-28-2017" href="#day-25-january-28-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 25: January 28, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 100 minutes FCC Tic-Tac-Toe Project</p>
+<p><strong>Thoughts</strong></p>
+<p>I&rsquo;ve completed the functionality to run a successful two-player game of tic-tac-toe. At this point in time, I just want to figure out how to code the game to choose random open squares to play against. No fancy unbeatable AI for the time being.</p>
+<p>I&rsquo;ve managed to make single-player as X work completely. That said, it broke the two-player version. And single-player as O only runs through once. I can&rsquo;t lie here. I was not even remotely interested in this project, and it&rsquo;s been so frustrating that I hate it even more. I&rsquo;ll get through it, but that&rsquo;s a tough combination: disinterest and difficult.</p>
+<p><strong>Link to work:</strong> <a href="https://github.com/rickMcGavin/tic-tac-toe">FreeCodeCamp Tic-Tac-Toe</a></p>
+<h3 id="day-24-january-27-2017"><a name="user-content-day-24-january-27-2017" href="#day-24-january-27-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 24: January 27, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 25 minutes React Docs Quick Start<br />
+- 25 minutes FCC Tic-Tac-Toe Project</p>
+<p>I&rsquo;ve been going through the <a href="https://facebook.github.io">React Docs</a>. The documentation here is solid. Might be better than the Lynda video I was taking to learn React.  </p>
+<p>I made a little bit of progress with the tic-tac-toe app. Added a modal for the winner, which I should ultimately just turn in to a message modal/overlay of sorts and feed content into it with jQuery. I finished the function to completely check for a winner. Essentially it&rsquo;s complete as a two-player game.</p>
+<p><strong>Link to work:</strong> <a href="https://github.com/rickMcGavin/tic-tac-toe">FreeCodeCamp Tic-Tac-Toe</a></p>
+<h3 id="day-23-january-25-2017"><a name="user-content-day-23-january-25-2017" href="#day-23-january-25-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 23: January 25, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 75 minutes FCC Tic-Tac-Toe Project</p>
+<p><strong>Thoughts</strong><br />
+I am moving along nicely with this project now. I&rsquo;m almost done making this a functional 2-player game. After that, I&rsquo;ll have to make it 1-player, which should be interesting. It shouldn&rsquo;t be too hard if it just chooses randomly, but I&rsquo;m not sure how to approach coding it in a way that will make it choose the best choices.</p>
+<p><strong>Link to work:</strong> <a href="https://github.com/rickMcGavin/tic-tac-toe">FreeCodeCamp Tic-Tac-Toe</a></p>
+<h3 id="day-22-january-24-2017"><a name="user-content-day-22-january-24-2017" href="#day-22-january-24-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 22: January, 24 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 100 minutes FCC Tic-Tac-Toe Project</p>
+<p><strong>Thoughts</strong></p>
+<p>I learned how to make modal pop ups in JavaScript. Thankfully it was fairly straight forward. I am struggling to center the content properly though.</p>
+<p>Right, now I&rsquo;m working on basically making it work as a two player game. I have it alternating between X&rsquo;s and O&rsquo;s, but when I make one click, it fires the X and the O back to back, and I&rsquo;m not quite sure why.</p>
+<p><strong>Link to work:</strong> <a href="https://github.com/rickMcGavin/tic-tac-toe">FreeCodeCamp Tic-Tac-Toe Challenge</a></p>
+<h3 id="day-21-january-23-2017"><a name="user-content-day-21-january-23-2017" href="#day-21-january-23-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 21: January 23, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 25 minutes <a href="http://www.lynda.com">Lynda.com</a><br />
+- 50 minutes FCC Tic-Tac-Toe Project</p>
+<p><strong>Thoughts</strong></p>
+<p>I am picking back up where I left off with the reactjs series. It&rsquo;s definitely just the essentials. React makes some sense to me just to look at it. Although, I honestly don&rsquo;t care for the way it looks as code. It don&rsquo;t find it as aesthetically pleasing, but that&rsquo;s ok.</p>
+<p>I started the HTML &amp; CSS portion of the tic-tac-toe challenge. Nothing major so far. It should get significantly harder later.</p>
+<p><strong>Link to work:</strong> <a href="https://github.com/rickMcGavin/tic-tac-toe">FreeCodeCamp Tic-Tac-Toe Challenge</a></p>
+<h3 id="day-20-january-22-2017"><a name="user-content-day-20-january-22-2017" href="#day-20-january-22-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 20: January 22, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 50 minutes FreeCodeCamp Advanced Project: Pomodoro Timer</p>
+<p><strong>Thoughts</strong></p>
+<p>I was able to add the underline animation like I desired to the Pomodoro timer. It&rsquo;s not exactly how I wanted it, but ultimately it&rsquo;s a nice touch, and something I wanted to include. I really should write a JS function to handle the repeated use of the same code. I can do that later.</p>
+<p>I fixed allowing the user to enter numbers less than one in to the timer.</p>
+<p>I did not figure out how to animate the border to fill with the timer, but maybe another day.</p>
+<p><strong>Link to work:</strong> <a href="https://github.com/rickMcGavin/Pomodoro-Clock">FreeCodeCamp: Pomodoro Clock</a></p>
+<h3 id="day-19-january-21-2017"><a name="user-content-day-19-january-21-2017" href="#day-19-january-21-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 19: January 21, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 25 minutes <a href="https://www.youtube.com/watch?v=PIkA60I0dKU&amp;list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub&amp;index=2">funfunfunction</a> YouTube video showing examples of <em>this</em> and bind in his object creation series.<br />
+- 150 minutes FreeCodeCamp Advanced Project: Pomodoro Timer</p>
+<p><strong>Thoughts</strong></p>
+<p>I&rsquo;ve always found the funfunfunction YouTube channel helpful at explaining some of the more advanced concepts in JavaScript, so I am going to plug away at his series on object creation.</p>
+<p>I don&rsquo;t think I did a good job keeping track of the time I spent working on this timer. It certainly feels like more than 150 minutes. It&rsquo;s fully functional now. It could pass the freecodecamp test as it is, but I fully intend to add just a few animations.</p>
+<p><strong>Link to work:</strong> <a href="https://github.com/rickMcGavin/Pomodoro-Clock">FreeCodeCamp: Pomodoro Clock</a></p>
+<h3 id="day-18-january-20-2017"><a name="user-content-day-18-january-20-2017" href="#day-18-january-20-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 18: January 20, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- ~100 minutes FreeCodeCamp Advanced Project: Pomodoro Timer</p>
+<p><strong>Thoughts</strong></p>
+<p>I skipped Lynda entirely today. I did watch some youtube videos on Object Creation in Javascript on the <a href="https://www.youtube.com/playlist?list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub">funfunfunction</a> channel. His channel really helped me understand higher-order functions better. Although today, I just watched his first video on Object Creation in JavaScript. What I like about his explanation is that he gives you some of those ideal examples, or what you might see in YDKJS, but he also provided a practical example. Like something you&rsquo;d come across in a fairly normal project.</p>
+<p>My focus has not been as precise. I have not been starting every session with clear goals and the laser focus I usually have. Part of this I believe is a result of the unusually large struggles I&rsquo;ve had with this Project Challenge. I was able to code a good portion of the functionality with basically no assistance. I very easily coded the timer to count down from whatever the user desired to 0.</p>
+<p>I had written my code without really being object oriented. When it came time to add the pause timer functionality, I simply could not figure out how to call it with the way I had written the code. Again I turned to the blog of <a href="https://www.gorkahernandez.com/blog/">Gorka Hernandez</a>. While I was able to move forward, I&rsquo;m not fully satisfied, and I still insist that I want to write it my own way. Writing his code out, and playing around with it though was a big help in gaining a deeper understanding.</p>
+<p><strong>Link to work:</strong>  <a href="https://github.com/rickMcGavin/Pomodoro-Clock">FreeCodeCamp: Pomodoro Clock</a></p>
+<h3 id="day-17-january-19-2017"><a name="user-content-day-17-january-19-2017" href="#day-17-january-19-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 17: January 19, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 25 minutes <a href="http://www.lynda.com">Lynda.com</a><br />
+- 50+ minutes FreeCodeCamp Advanced Project: Pomodoro Timer</p>
+<p><strong>Thoughts</strong></p>
+<p>My 25 minutes on Lynda basically doesn&rsquo;t count. I ended up falling asleep during it. I am extremely tired. I&rsquo;ll have to watch it again tomorrow.</p>
+<p>I worked for well over 50 minutes on the Pomodoro code. I am trying to make it more object oriented by using a constructor, and well, the struggle is back. When I wasn&rsquo;t writing the code that way, I definitely was able to accomplish a lot, but I don&rsquo;t think it was working out in my favor. I&rsquo;m definitely missing something. I started to write it differently because I couldn&rsquo;t figure out how to use clearTimeout in my original code that was actually working more. Now, that I&rsquo;m writing it in a more object-oriented way though, it&rsquo;s like I turned the struggle back up. One thing I know for sure is that I&rsquo;m too tired and frustrated to figure <em>this</em> out tonight.</p>
+<p><strong>Link to work:</strong>  <a href="https://github.com/rickMcGavin/Pomodoro-Clock">FreeCodeCamp: Pomodoro Clock</a></p>
+<h3 id="day-16-january-18-2017"><a name="user-content-day-16-january-18-2017" href="#day-16-january-18-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 16: January 18, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 25 minutes <a href="http://www.lynda.com">Lynda.com</a><br />
+  - Started React.js: The Basics<br />
+- ~50 minutes FreeCodeCamp Advanced Project: Pomodoro Timer</p>
+<p><strong>Thoughts</strong></p>
+<p>Due to some potentially pressing desire to find employment. I have decided to skip some courses that would mostly be considered review, and I&rsquo;ve started React.js.</p>
+<p>I made some actual progress on this timer. I was definitely approaching it the wrong way. I was trying to manipulate the seconds and minutes separately. Instead, it was much easier to just run the timer based on the total seconds, and convert the display.</p>
+<p><strong>Link to work:</strong>  <a href="https://github.com/rickMcGavin/Pomodoro-Clock">FreeCodeCamp: Pomodoro Clock</a></p>
+<h3 id="day-15-january-17-2017"><a name="user-content-day-15-january-17-2017" href="#day-15-january-17-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 15: January 17, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 25 minutes <a href="http://www.lynda.com">Lynda.com</a><br />
+  - Continued HTML Essential Training on Front-End Developer Learning Path<br />
+- 75 minutes FreeCodeCamp Advanced Project: Pomodoro Timer</p>
+<p><strong>Thoughts</strong></p>
+<p>Still nothing major learned from the HTML course. Although, I will say it&rsquo;s interesting to learn the difference between when to use the tags &lt;em&gt;, &lt;i&gt;, &lt;strong&gt;, and &lt;b&gt;. I didn&rsquo;t realize they all serve their own purpose. &lt;em&gt; and &lt;strong&gt; are geared more towards a conversational emphasis, and screen readers with inflection capabilities will change the inflection. &lt;i&gt; and &lt;b&gt; are for presentational use of italic and bold.</p>
+<p>Now that I have my setup complete with the HTML/SCSS, I am working with the JS. I&rsquo;m trying to push myself more to use object constructors, and as much Vanilla JS as possible. That said, I&rsquo;m definitely struggling with this timer. I have no issue, getting that clock to count down from 60 - 0. After that though, I am definitely struggling. It may be possible because of the way I am handling minutes and seconds separately. It likely would be significantly easier to convert the input to all seconds, and then convert it back to minutes and seconds upon updating to the display.</p>
+<p>Either way, I didn&rsquo;t get quite enough sleep, and since I&rsquo;m 2 hours in. I&rsquo;ll call it a night.</p>
+<p><strong>Link to work:</strong>  <a href="https://github.com/rickMcGavin/Pomodoro-Clock">FreeCodeCamp: Pomodoro Clock</a></p>
+<h3 id="day-14-january-16-2017"><a name="user-content-day-14-january-16-2017" href="#day-14-january-16-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 14: January 16, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 25 minutes <a href="http://www.lynda.com">Lynda.com</a><br />
+  - Started HTML Essential Training on Front-End Developer Learning Path<br />
+- 125 minutes FreeCodeCamp Advanced Project: Pomodoro Timer</p>
+<p><strong>Thoughts</strong></p>
+<p>The first 25 minutes of the Lynda course were obviously a little boring as I feel I know HTML rather well at this point. However, I definitely want that Front-End Certification from Lynda, so I&rsquo;ll bear with it. I&rsquo;ll be getting in to new territory shortly.</p>
+<p>I coded the HTML &amp; SCSS for the Pomodoro Clock. That is complete except for the animations. I started the JavaScript functionality. I figured out how to count from 60 to 0 in 1 second intervals so far. I feel like I am at least on the right path.</p>
+<p><strong>Link to work:</strong> <a href="https://github.com/rickMcGavin/Pomodoro-Clock">FreeCodeCamp: Pomodoro Clock</a></p>
+<h3 id="day-13-january-15-2017"><a name="user-content-day-13-january-15-2017" href="#day-13-january-15-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 13: January 15, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 50 minutes <a href="http://www.lynda.com">Lynda.com</a><br />
+  - Finished CSS: Core Concepts course on Front-End Developer Learning Path<br />
+- 50 minutes FreeCodeCamp Advanced Project: Pomodoro Timer</p>
+<p><strong>Thoughts</strong></p>
+<p>Again I&rsquo;m learning some interesting things about CSS in regards to styling container elements. This course is far more detailed in regards to teaching how to round corners, handling background image properties, and the various ways you can write border properties. I wish I came across this course initially as it is easily the most comprehensive I&rsquo;ve come across. It&rsquo;s helping me fill gaps in my learning. Some of the gaps I knew existed. Some I didn&rsquo;t, and those are the worst after all. Not knowing what you don&rsquo;t know can really leave you in the dark.</p>
+<p>Put together a design in Sketch App of how I&rsquo;d like the Pomodoro Clock to look. Calling it an easy day and stopping after 2 hours. It is Sunday after all.</p>
+<p><strong>Link to work:</strong> <a href="https://github.com/rickMcGavin/Pomodoro-Clock">FreeCodeCamp: Pomodoro Clock</a></p>
+<h3 id="day-12-january-142017"><a name="user-content-day-12-january-142017" href="#day-12-january-142017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 12: January 14,2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- Read 25 minutes Eloquent JavaScript<br />
+  - Tried reading up on objects from another book for more insight in to my struggles with objects and <em>this</em>.<br />
+- 75+ minutes FreeCodeCamp Advanced Project: JavaScript Calculator<br />
+  - Finished&hellip; for now.</p>
+<p><strong>Thoughts</strong></p>
+<p>After reading more and varying sources on <em>this</em> and objects and object prototypes. I don&rsquo;t think I have a huge misunderstanding of them. I think I just managed to break my calculator code in a confusing enough way to make me doubt myself more than I should. That said, I still don&rsquo;t have my code working the way I want for the JavaScript calculator.</p>
+<p>After taking about 10 minutes to learn how the debugger in Chrome works courtesy of <a href="https://www.youtube.com/user/gordonmzhu/feed">Ghordon Zhu&rsquo;s YouTube Channel</a>, I was able to narrow down where the issue was. It turns out that I am not a total moron who has no concept of how objects work &amp; how <em>this</em> works. Instead, I named two classes in my html &ldquo;number-button&rdquo; and &ldquo;operator-button&rdquo;, and then I tried calling them as &ldquo;number-buttons&rdquo; and &ldquo;operator-buttons&rdquo; in my JavaScript file.</p>
+<p>Lessons learned:<br />
+- Use debugger often and early. <br />
+- Check those damn variables for pluralization!</p>
+<p>Mission accomplished on breaking the code in to smaller functions. I still have some issue where the user can enter multiple decimals though.<br />
+Added the ability to operate the calculator with the use of key presses.<br />
+The user also cannot enter multiple decimals per number now.</p>
+<p><strong>Link to work on github</strong><br />
+<a href="https://github.com/rickMcGavin/JavaScript-Calculator">FreeCodeCamp: JavaScript Calculator</a></p>
+<p><strong>Link to work on codepen</strong><br />
+<a href="http://codepen.io/rickMcGavin/pen/oBLNxM">FreeCodeCamp: JavaScript Calculator</a></p>
+<h3 id="day-11-january-13-2017"><a name="user-content-day-11-january-13-2017" href="#day-11-january-13-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 11: January 13, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 25 minutes <a href="http://www.lynda.com">Lynda.com</a><br />
+  - Continued CSS: Core Concepts course on Front-End Developer Learning Path<br />
+- 75+ minutes FreeCodeCamp Advanced Project: JavaScript Calculator<br />
+- 25 minutes YDKJS: <em>this</em> &amp; Object Prototypes</p>
+<p><strong>Thoughts</strong></p>
+<p>The CSS course today largely covered how to understand the basics of the box model, controlling element spacing, and controlling interior spacing. Many things I knew, but there were some quirks in regards to the way margin is calculated vertically on elements.</p>
+<p>I made the calculator a little wider and increased the height some, so as to make it most appealing on mobile devices. I felt it was a little too small when I used it on my iPhone. I like how it works now, but am not sure why I can&rsquo;t make it reach the entire width of the screen.</p>
+<p>I added some more border to the top, left, and right of the display to make it look more uniform with the rest of the calculator&rsquo;s styling.</p>
+<p>I did not like the way the JavaScript was written in my version. It was mostly one big function. I wanted to be able to make it more functional by using many smaller functions. Since my version is already complete and working, I figured there is no harm in going and finding a better way to write it and possibly learn something while I am at it. I am trying to adapt <a href="https://www.gorkahernandez.com/blog/fcc-zipline-series-build-javascript-calculator-vanilla/">JavaScript Calculator Guide</a> by <a href="http://www.gorkahernandez.com/">Gorka Hernandez</a>. I am still trying to get this to work without much success, and am not sure what it is I&rsquo;m missing at this point.</p>
+<p>I made a point to read YDKJS today due to my struggles with <em>this</em>, objects, constructors. I hear people rave about YDKJS, and it is good. I don&rsquo;t find it that accessible though. I don&rsquo;t care for the examples either. They don&rsquo;t seem to have any practical application. Every example is written to demonstrate only what the author is trying to demonstrate. They are all foo() bar() style. I&rsquo;m definitely struggling with this.</p>
+<p><strong>Link to work on github</strong><br />
+<a href="https://github.com/rickMcGavin/JavaScript-Calculator">FreeCodeCamp: JavaScript Calculator</a></p>
+<p><strong>Link to work on codepen</strong><br />
+<a href="http://codepen.io/rickMcGavin/pen/oBLNxM">FreeCodeCamp: JavaScript Calculator</a></p>
+<h3 id="day-10-january-12-2017"><a name="user-content-day-10-january-12-2017" href="#day-10-january-12-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 10: January 12, 2017</h3>
+<p><strong>Today&rsquo;s Progess</strong><br />
+- 25 minutes <a href="http://www.lynda.com">Lynda.com</a><br />
+  - Continued CSS: Core Concepts course on Front-End Developer Learning Path<br />
+- 75+ minutes FreeCodeCamp Advanced Project: JavaScript Calculator</p>
+<p><strong>Thoughts</strong></p>
+<p>Much of the CSS course today was in regards to text manipulation, which is another topic I knew fairly well.</p>
+<p>The JavaScript calculator was somewhat simpler than I was expecting. It will technically pass all FCC user stories as it is, so I submitted it as complete. It still has some quirks I want to work out though. For example, you can input as many decimals in a number as you want, which will eventually break it.</p>
+<p><strong>Link to work on github</strong><br />
+<a href="https://github.com/rickMcGavin/JavaScript-Calculator">FreeCodeCamp: JavaScript Calculator</a></p>
+<p><strong>Link to work on codepen</strong><br />
+<a href="http://codepen.io/rickMcGavin/pen/oBLNxM">FreeCodeCamp: JavaScript Calculator</a></p>
+<h3 id="day-9-january-11-2017"><a name="user-content-day-9-january-11-2017" href="#day-9-january-11-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 9: January 11, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 25 minutes <a href="http://www.lynda.com">Lynda.com</a><br />
+  - Continued CSS: Core Concepts course on Front-End Developer Learning Path<br />
+- 50+ minutes FreeCodeCamp Advanced Project: JavaScript Calculator</p>
+<p><strong>Thoughts</strong></p>
+<p>I definitely didn&rsquo;t learn anything new from the CSS course today. Not too surprised. It was bound to happen eventually. Thank you for 2x speed videos. Although, I must say I wish I had 3x. This is in no way a negative criticism of the course. It&rsquo;s just largely review.</p>
+<p>Finished the majority of the HTML/CSS portion. Looks better than what I sketched up. Added some basic CSS to it. I&rsquo;m quite pleased with how it looks. Now that it looks like a calculator, I have to make it work like a calculator.</p>
+<p><strong>Link to work:</strong><br />
+<a href="https://github.com/rickMcGavin/JavaScript-Calculator">FreeCodeCamp: JavaScript Calculator</a></p>
+<h3 id="day-8-january-10-2017"><a name="user-content-day-8-january-10-2017" href="#day-8-january-10-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 8: January 10, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 25 minutes <a href="http://www.lynda.com">Lynda.com</a><br />
+  - Continued CSS: Core Concepts course on Front-End Developer Learning Path<br />
+- 75 minutes FreeCodeCamp Advanced Project: JavaScript calculator</p>
+<p><strong>Thoughts</strong></p>
+<p>It&rsquo;s funny how I thought I knew CSS rather well, but continue to learn and understand more by the Lynda course. The most appropriate and easy to understand explanation of specificity exists in this course. I understand in general how CSS selectors could be more specific than others. I did not realize that each selector is assigned a value, and the more specific selector is basically the selector with the highest combined value.</p>
+<p>I started the JavaScript calculator project by getting a rough idea of what I wanted the project to look like in Sketch, choose a color palette and general design. This took only about 25 - 45 minutes, but it gives me a clear sense of how to approach writing the HTML &amp; CSS. I started the HTML &amp; CSS, using SCSS.</p>
+<p>I&rsquo;m having a little trouble with the buttons laying out how I want them to in the flexbox, but I&rsquo;ll figure it out.   </p>
+<p><strong>Link to work:</strong><br />
+<a href="https://github.com/rickMcGavin/JavaScript-Calculator">FreeCodeCamp: JavaScript Calculator</a></p>
+<h3 id="day-7-january-9-2017"><a name="user-content-day-7-january-9-2017" href="#day-7-january-9-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 7: January 9, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 25 minutes <a href="http://www.lynda.com">Lynda.com</a><br />
+  - Continued CSS: Core Concepts course on Front-End Developer Learning Path<br />
+- ~50 minutes on FreeCodeCamp Advanced Algorithm Challenge: pairwise<br />
+  - solved</p>
+<p><strong>Thoughts</strong></p>
+<p>I continue to learn more from the CSS course. I did not have a strong grasp on psuedo-element selectors and how they worked. Even though I have used them before, I certainly did not understand them how I do now.</p>
+<p>I was able to rather easily solve pairwise. I had thought about how to solve it frequently at work, and my plan worked largely. I ran in to some odd behavior that caused me to fail the challenge on the first few tries. For instance when I set the initial value of the loop inside the reducer to 1. It worked for most problems, but when I set it to the reduce function&rsquo;s index + 1. It worked for all of them. I&rsquo;m a little unsure why this is still.</p>
+<p>Unfortunately, it seems tonight will be another night I don&rsquo;t read YDKJS. I need to figure out how to start earlier in the night, so I can get everything done.</p>
+<p>Looking forward to starting the calculator tomorrow.</p>
+<p><strong>Link to work:</strong><br />
+<a href="https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/pairwise.js">FreeCodeCamp: Pairwise</a></p>
+<h3 id="day-6-january-8-2017"><a name="user-content-day-6-january-8-2017" href="#day-6-january-8-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 6: January 8, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 25 minutes <a href="http://www.lynda.com">Lynda.com</a><br />
+  - Continued CSS: Core Concepts course on Front-End Developer Learning Path<br />
+- 75 minutes on FreeCodeCamp Advanced Algorithm Challenge: Map the Debris<br />
+  - solved</p>
+<p><strong>Thoughts</strong></p>
+<p>Since the CSS course is <em>mostly</em> review, I prefer to watch it at 1.75x - 2x speed. I will say that even though I&rsquo;ve taken an absurd amount of online courses, and I&rsquo;ve even read Jon Duckett&rsquo;s HTML/CSS book, I still learn a ton of things about CSS I never knew. In some cases, I was using them, but didn&rsquo;t understand them until this course.</p>
+<p>I loved the Map the Debris challenge. I enjoyed it. I found it sufficiently challenging without being confusing, and I learned from it.</p>
+<p><strong>Link to work:</strong><br />
+<a href="https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/map_the_debris.js">FreeCodeCamp: Map the Debris</a></p>
+<h3 id="day-5-january-7-2017"><a name="user-content-day-5-january-7-2017" href="#day-5-january-7-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 5: January 7, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 25 minutes <a href="http://www.lynda.com">Lynda.com</a><br />
+  - Continued CSS: Core Concepts course on Front-End Developer Learning Path<br />
+- 50+ minutes on FreeCodeCamp Advanced Algorithm Challenge: Friendly Date Ranges<br />
+  - solved<br />
+- 25 minutes reading YDKJS: this and Object Prototypes<br />
+- 25 - 50 minutes on FreeCodeCamp Advanced Algorithm Challenge: Make a Person<br />
+  - solved</p>
+<p><strong>Thoughts</strong></p>
+<p>I like a lot of FCC, but this challenge is kind of lousy. The instructions are not clear in my opinion, especially when compared to the test cases.</p>
+<p>To make matters worse, they chose to use a date format separated by hyphens. Maybe they didn&rsquo;t realize this, but the hyphens are wildly inconsistent. I had to append .replace(&ldquo;-&ldquo;, &ldquo;/&rdquo;) on to a couple lines of code to make it work. Not everyone had to do this it seems. For example, Stephen Mayeaux&rsquo;s code from his YouTube channel worked just fine without. Mine was consistently off unless I changed those hyphens to forward slashes.</p>
+<p>My final little gripe about this is really only related to timing. The challenge seems to have been designed for 2017, so I had to add a little alteration to make it work as if it wasn&rsquo;t 2017 already. That&rsquo;s just a necessary update they may not have seen coming.</p>
+<p>I submitted an issue for the bug above, and found out they already had an open pull request to remove the challenge entirely as it will require an update every year. Interesting.  </p>
+<p>I also solved the Make a Person challenge on FCC. Even though I&rsquo;m reading the YDKJS book on <em>this</em>, I&rsquo;m still struggling with its use.</p>
+<p><strong>Link to work:</strong><br />
+FreeCodeCamp: Friendly Date Ranges](<a href="https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js">https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js</a>)<br />
+<strong>Link to work:</strong><br />
+<a href="https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/make_a_person.js">FreeCodeCamp: Make a Person</a></p>
+<h3 id="day-4-january-6-2017"><a name="user-content-day-4-january-6-2017" href="#day-4-january-6-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 4: January 6, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 25 minutes on <a href="http://www.lynda.com">Lynda.com</a><br />
+  - Continued CSS: Core Concepts course on Front-End Developer Learning Path.<br />
+- 50+ minutes on FreeCodeCamp Advanced Algorithm Challenge: Friendly Date Ranges</p>
+<p><strong>Thoughts</strong></p>
+<p>I finally understand how this Date object works. Also, it seems that since FCC used hyphens in the date format, there is some sort of inconsistency. I thought I just didn&rsquo;t understand how the methods worked, but apparently if you replace the hyphens with forward slashes, the dates work right. Glad I figured that out. That little inconsistency completely hung me up on this challenge. I&rsquo;ve been able to move forward on it now, and should be able to have it completed tomorrow.</p>
+<p>I could have most likely solved it, but in a rare change, I just really enjoyed playing around with the Date object and seeing how it works&hellip; in a productive way.</p>
+<p><strong>Link to work:</strong><br />
+<a href="https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js">FreeCodeCamp: Friendly Date Ranges</a></p>
+<h3 id="day-3-january-5-2017"><a name="user-content-day-3-january-5-2017" href="#day-3-january-5-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 3: January 5, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 50 minutes on FreeCodeCamp Advanced Algorithm Challenge: Friendly Date Ranges</p>
+<p><strong>Thoughts</strong></p>
+<p>Life definitely happened today. Got a late start on coding, so I only worked on the FCC challenge instead of my usual routine. I didn&rsquo;t get enough sleep, and I definitely struggled with this date challenge as I barely solved any of the problems in the algorithm. Tomorrow will be better.</p>
+<p><strong>Link to work:</strong><br />
+<a href="https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/friendly_dates_ranges.js">FreeCodeCamp: Friendly Date Ranges</a></p>
+<h3 id="day-2-january-4-2017"><a name="user-content-day-2-january-4-2017" href="#day-2-january-4-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 2: January 4, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 25 minutes on <a href="http://www.lynda.com">Lynda.com</a><br />
+  - Began course CSS: Core Concepts on Front-End Developer Learning Path.<br />
+- 85 minutes on FreeCodeCamp Advanced Algorithm Challenge: No Repeats Please<br />
+  - Solved on 4th Pomodoro and finished the remaining&hellip;<br />
+- 15 minutes on reading YDKJS this &amp; Object Prototypes</p>
+<p><strong>Thoughts</strong></p>
+<p>I spent the majority of my time coding as compared to reading or studying the Front-End Developer Learning Path on Lynda. It certainly felt like the most productive use of my time, and I have another FCC challenge solved to show for it. I just need to knock down 4 more of these algorithm challenges before I can start the projects.</p>
+<p><strong>Link to work:</strong><br />
+<a href="https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/no_repeats_please.js">FreeCodeCamp: No Repeats Please Solution</a></p>
+<h3 id="day-1-january-3-2017"><a name="user-content-day-1-january-3-2017" href="#day-1-january-3-2017" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Day 1: January 3, 2017</h3>
+<p><strong>Today&rsquo;s Progress</strong><br />
+- 25 minutes on <a href="http://www.lynda.com">Lynda.com</a><br />
+  - Finished course: Up &amp; Running with Git and Github<br />
+- 50 minutes coding FreeCodeCamp Advanced Algorithm Challenge: Inventory Update.<br />
+  - Challenge solved.<br />
+- 25 minutes reading YDKJS: this &amp; Object Prototypes</p>
+<p><strong>Thoughts:</strong></p>
+<p>I work in Pomodoros, so I consider meeting my coding challenge at 50 minutes per day. I typically always try to read or watch course material as well, but not as much as time spent on code.</p>
+<p>The biggest thing I learned today was that I struggled with the Inventory Update challenge largely due to a misunderstanding of how nested for loops would iterate through an array.</p>
+<p>I consider it a win that I was able to solve the challenge. Tomorrow I have to start figuring out the next FCC Advanced Algorithm Challenge: No Repeats Please.<br />
+<strong>Link to work:</strong><br />
+<a href="https://github.com/rickMcGavin/algorithm-challenges/blob/master/FreeCodeCamp/advanced_algorithms/inventory_updates.js">Inventory Update Solution</a></p></article></body></html>
