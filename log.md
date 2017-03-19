@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 70: March 18, 2017
+
+**Thoughts**
+
+Just moved through the course some more. A lot more CSS styling. I don't like his methods for everything. He uses floats a lot, relative/absolute positioning, which is something I manage to avoid a lot with flexbox. I just think in terms of flexbox because it's what I've always used.
+
+**Link to work:**
+
+[Travel Site _Git a Web Developer Job project_](https://github.com/rickMcGavin/travel-site) 
+
 ### Day 69: March 17, 2017
 
 **Thoughts**
