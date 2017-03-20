@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 71: March 19, 2017
+
+**Thoughts**
+
+Finished the styling of the testimonials section. I'm learning different ways to approach writing CSS for certain scenarios. It's interesting because Brad takes approaches that I almost never would. I use flexbox a lot. He uses it a lot less. The biggest thing for me is the way he reuses his CSS a lot by adding classes to elements in the HTML. I want to make sure I take that style away. 
+
+Up next he shows you how to make automatic sprites with Gulp, so I'm really interested in this because it can have a serious performance boost to your site. 
+
+Also, I learned to merge branches today. Very cool.
+
+**Link to work:**
+
+[Travel Site _Git a Web Developer Job project_](https://github.com/rickMcGavin/travel-site) 
+
 ### Day 70: March 18, 2017
 
 **Thoughts**
