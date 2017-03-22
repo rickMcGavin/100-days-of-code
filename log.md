@@ -1,5 +1,28 @@
 # 100 Days Of Code - Log
 
+### Day 73: March 21, 2017
+
+**Thoughts**
+
+I dug in to writing the JavaScript for the project today. Learned how to use webpack to bundle my JS, which is very cool. Learned some interesting ES6 stuff that I thought was React because it's used so prominently in React, but it's ES6. 🤔
+
+I dig the code organization, but I never minded JavaScript spaghetti 🍝. I should probably start getting comfortable with the organization though.
+
+**Link to work:**
+
+[Travel Site _Git a Web Developer Job project_](https://github.com/rickMcGavin/travel-site) 
+
+
+### Day 72: March 20, 2017
+
+**Thoughts**
+
+I definitely forgot to record this day in the log. It was a lot of CSS writing though for the most.
+
+**Link to work:**
+
+[Travel Site _Git a Web Developer Job project_](https://github.com/rickMcGavin/travel-site) 
+
 ### Day 71: March 19, 2017
 
 **Thoughts**
