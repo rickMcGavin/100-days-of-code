@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 74: March 22, 2017
+
+**Thoughts**
+
+I made a lot of progress today in the course. I made the hamburger menu icon, and learned how to animate that sucker. This also means I know how to do a lot of other cool animations in CSS that were kind of tripping me up before. 
+
+I learned about the waypoints package that will definitely allow me to create some of the effects that I've been wanting to on scroll.
+
+I also learned about the smooth scroll package, which is just the easiest thing on earth, and I don't know why I wasn't using it all along.
+
+This is really the best course I've ever seen for front end development. I'll never write code the same again.
+
+**Link to work:**
+
+[Travel Site _Git a Web Developer Job project_](https://github.com/rickMcGavin/travel-site) 
+
 ### Day 73: March 21, 2017
 
 **Thoughts**
