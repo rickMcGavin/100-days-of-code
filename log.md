@@ -1,5 +1,25 @@
 # 100 Days Of Code - Log
 
+### Day 76: March 24, 2017
+
+**Thoughts**
+
+I was struggling a lot with the end of the course. There were numerous struggles with Gulp and webpack that mostly only happened because of the updates made to the software after the course was made. I solved them though, but one of them took something like 6 hours over the course of 2-3 days. 
+
+It was very frustrating. Next up: build a similar personal project based off a sketch design.
+
+[Travel Site _Git a Web Developer Job_ project](https://rickmcgavin.github.io/travel-site/)
+
+### Day 75: March 23, 2017
+
+**Thoughts**
+
+See day 76 notes.
+
+**Link to work:**
+
+[Travel Site _Git a Web Developer Job project_](https://github.com/rickMcGavin/travel-site) 
+
 ### Day 74: March 22, 2017
 
 **Thoughts**
