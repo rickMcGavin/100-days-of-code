@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 76: March 24, 2017
+### Day 77: March 25, 2017
 
 **Thoughts**
 
@@ -8,13 +8,29 @@ I was struggling a lot with the end of the course. There were numerous struggles
 
 It was very frustrating. Next up: build a similar personal project based off a sketch design.
 
+I found a sketch design I can build. It's a product landing page. It's nice and clean. The [design](https://sketchrepo.com/free-sketch/vex-product-landing-page-template-freebie/) is by [ThemeFisher](http://themefisher.com/). 
+
+I will get some practice turning designs in to web pages using build tools and the full nine. 
+
+I already made my base template with my newly fashioned node script skeletor. It basically just creates all the files and folders you'd need to start making a basic project.
+
 [Travel Site _Git a Web Developer Job_ project](https://rickmcgavin.github.io/travel-site/)
+
+### Day 76: March 24, 2017
+
+**Thoughts**
+
+See day 77 notes
+
+**Link to work:**
+
+[Travel Site _Git a Web Developer Job project_](https://github.com/rickMcGavin/travel-site)
 
 ### Day 75: March 23, 2017
 
 **Thoughts**
 
-See day 76 notes.
+See day 77 notes.
 
 **Link to work:**
 
