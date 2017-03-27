@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 78: March 26, 2017
+
+**Thoughts**
+
+Today's coding was spent taking a JavaScript test for a job. That was one crazy test. Ultimately I came up with a strong score, so I'm hoping that is good for me in the end. 
+
+The test felt incredibly dated though I must say. I haven't seen code written like that basically ever.
+
 ### Day 77: March 25, 2017
 
 **Thoughts**
