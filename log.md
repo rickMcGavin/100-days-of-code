@@ -1,5 +1,35 @@
 # 100 Days Of Code - Log
 
+### Days 81 - 85: April 4, 2017
+
+**Thoughts**
+
+Unintentionally I kind of lost track of the record keeping part of the challenge. I've definitely still been coding. I came this far. I'm not going to just drop off now. 
+
+This Nike test the recruiter sent to me is actually really dope. I still think using React is a touch overkill, but I actually enjoy writing it in React.js and aphrodite. 
+
+### Day 80: March 28, 2017
+
+**Thoughts**
+
+Making more progress on this landing page. Applying what you've learned definitely helps you stretch & challenge what you know. It's amazing sometimes how you can learn something, and then go to apply it, and it's just a little more challenging for some reason.
+
+I was able to finish the hero page section and the core features section. The core-features section needs a little work on mobile. 
+
+The BEM methodology is pretty great. It feels slow at first because you're setting so much up, but it definitely picks up pace as you progress through the page.
+
+**Link to work:**
+[Vex Landing Page](https://github.com/rickMcGavin/vex-landing-page)
+
+### Day 79: March 27, 2017
+
+**Thoughts**
+
+Set up my gulp tools, and everything for this Vex landing page.
+
+**Link to work:**
+[Vex Landing Page](https://github.com/rickMcGavin/vex-landing-page)
+
 ### Day 78: March 26, 2017
 
 **Thoughts**
