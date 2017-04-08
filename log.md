@@ -1,6 +1,20 @@
 # 100 Days Of Code - Log
 
-### Days 81 - 85: April 4, 2017
+### Day 87: April 7, 2017
+
+**Thoughts**
+
+I made some serious progress on my Nike test project. I was hoping to be done, but I'm not so good at mobile menus. I finished the mobile menu, and the landing page. I think it all looks pretty slick. I was really hoping to finish the whole thing today, but I think the end is in sight as of tomorrow. Then I can dig in on the smaller project for RV.
+
+### Day 86: April 6, 2017
+
+**Thoughts**
+
+I've made significant progress on the Nike test page. I had a weird instance where I was stacking images, and I just didn't like the way it was working out. I used positioning, and it gave me all kinds of headaches. 
+
+I think it will be smarter to use a css background image and then a normal image. I wish I hadn't gotten so stuck on it though. 
+
+### Days 81 - 85: April 5, 2017
 
 **Thoughts**
 
