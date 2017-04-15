@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Days 88 - 91 April 14, 2017
+
+**Thoughts**
+
+I've definitely fallen behind on this. Although, I thought I had journaled more than I did. It seems I just kept it up to date on Twitter. 
+
+I finished my AngularJS project for the one job. It did not result in an interview. It was cool I was able to get myself up to speed on AngularJS that quickly, but I wasn't able to produce work that was good enough to land me an interview. 
+
+I think I'm experiencing some burn out. Fortunately, I now have the ability to pull back, collect my thoughts on what I want to focus on, and work on some personal projects. I always do prefer personal projects.
+
+
 ### Day 87: April 7, 2017
 
 **Thoughts**
