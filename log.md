@@ -1,5 +1,32 @@
 # 100 Days Of Code - Log
 
+### Day 99 April 22, 2017
+
+**Thoughts**
+
+Finished Stephen Grider's Modern React & Redux course. Going to start Anthony Alicea's course on node.js. I really want to be full stack, so may as well go for it now.
+
+### Day 98 April 21, 2017
+
+**Thoughts**
+
+Finished the weather app in Stephen Grider's React course. I like how he uses bootstrap to handle a lot of this stuff. I think bootstrap would be really useful for getting a prototype up and running quickly. I don't always want to bother with writing every little piece of CSS just to see if I can accomplish something. I'll use bootstrap to handle that.
+
+**Link to work:**
+[Weather App](https://github.com/rickMcGavin/react_weather)
+
+### Days 94 - 97 April 20, 2017
+
+**Thoughts**
+
+Still struggling some to keep up to date. Worked on React & Redux. Definitely need a break after this challenge.
+
+### Days 92 & 93 April 15, 2017
+
+**Thoughts**
+
+Worked on more React. Read YDKJS. 
+
 ### Days 88 - 91 April 14, 2017
 
 **Thoughts**
