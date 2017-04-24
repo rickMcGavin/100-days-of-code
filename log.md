@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 100 April 23, 2017
+
+**Thoughts**
+
+Did some es6 with Wes Bos. I rather enjoy that course. Doesn't seem like any of his others. I also really enjoy Tony Alicea's course on Node here. I like how he really digs in with his courses. I always end up understanding JavaScript on some deeper level.
+
+Overall, I really enjoyed this challenge. I started very strong and stayed the course really until about somewhere in the 80s. I think I technically finished this challenge sooner, but lost track of my days. 
+
+I did have some personal things going on that messed me up. Either way, I definitely developed my coding habit. I want to keep doing the challenge though because I like the twitter activity. I also like keeping the log. 
+
+Next time, I'm setting my github up differently so my commits to this log will count.
+
+That's about all I have for today. See you in a week!
+
 ### Day 99 April 22, 2017
 
 **Thoughts**
